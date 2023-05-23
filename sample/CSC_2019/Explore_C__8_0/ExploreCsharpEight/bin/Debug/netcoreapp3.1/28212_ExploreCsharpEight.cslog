@@ -1,0 +1,21 @@
+[COVER] OutputOptions: TCP
+[COVER] Port: 9093
+[COVER] Connection Interval: 3000
+[COVER] Dump Directory: 
+[COVER] Dump Interval: 5000
+[COVER] Log Option: FILE
+[COVER] Log Directory: 
+[COVER] makes new connection
+[COVER] ResetExecutionInfo
+[COVER] SendProcessInfo
+[COVER] System.NullReferenceException: Object reference not set to an instance of an object.
+   at QualityScroll.Cover.data.RuntimeData.DumpProcessInfo() in D:\Jenkins\sharedspace\COVER-4.0.0\csharp\QualityScroll.Cover.CSharp\CoverageLibrary\CoverCSharpLibrary\data\RuntimeData.cs:line 124
+   at QualityScroll.Cover.data.RemoteCommandReader.ReadBlock(Byte blocktype) in D:\Jenkins\sharedspace\COVER-4.0.0\csharp\QualityScroll.Cover.CSharp\CoverageLibrary\CoverCSharpLibrary\data\RemoteCommandReader.cs:line 53
+   at QualityScroll.Cover.data.RemoteCommandReader.Read() in D:\Jenkins\sharedspace\COVER-4.0.0\csharp\QualityScroll.Cover.CSharp\CoverageLibrary\CoverCSharpLibrary\data\RemoteCommandReader.cs:line 29
+[COVER] makes new connection
+[COVER] ResetExecutionInfo
+[COVER] SendProcessInfo
+[COVER] DumpExecutionInfo
+[COVER] connection already established
+[COVER] DumpExecutionInfo
+[COVER] DumpChangedCoverageData

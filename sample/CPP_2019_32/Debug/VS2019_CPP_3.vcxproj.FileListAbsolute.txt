@@ -1,0 +1,4 @@
+C:\Users\jhka\Desktop\SampleCode\VS2019_CPP_3\Debug\VS2019_CPP_3.exe
+C:\Users\jhka\Desktop\SampleCode\VS2019_CPP_3\Debug\VS2019_CPP_3.pdb
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\CPP_2019_32\Debug\VS2019_CPP_3.exe
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\CPP_2019_32\Debug\VS2019_CPP_3.pdb

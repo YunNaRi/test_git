@@ -1,0 +1,34 @@
+﻿  nameSample.c
+  6a2a118a-2bdb-4083-bc20-95bd10ca9c39.c
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(34,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(76,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(77,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(79,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(134): message : 'strcpy' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(80,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(134): message : 'strcpy' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(92,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(100,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(134): message : 'strcpy' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(101,1): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\string.h(134): message : 'strcpy' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(117,1): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1274): message : 'scanf' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(143,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 'fopen' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(151,1): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(1197): message : 'fscanf' 선언을 참조하십시오.
+D:\COVER\Sample Code(EE)\sample\C_2019_32\nameSample.c(162,1): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\stdio.h(208): message : 'fopen' 선언을 참조하십시오.
+  coverage linking: D:\COVER\Sample Code(EE)\sample\C_2019_32\Debug\2019_32bit.exe
+  cstm_696cd0ab.cpp
+  libcstmcl_md.lib(libcstm.obj) : /GL로 컴파일한 MSIL .netmodule 또는 모듈이 있습니다. /LTCG를 지정하여 링크를 다시 시작하십시오. /LTCG를 링크 명령줄에 추가하면 링커 성능이 향상됩니다.
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+  코드를 생성하고 있습니다.
+  코드를 생성했습니다.
+libcstmcl_md.lib(libcstm.obj) : warning LNK4099: 'target_lib_2019.pdb' PDB를 'libcstmcl_md.lib(libcstm.obj)' 또는 'D:\COVER\Sample Code(EE)\sample\C_2019_32\Debug\target_lib_2019.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  2019_32bit.vcxproj -> D:\COVER\Sample Code(EE)\sample\C_2019_32\Debug\2019_32bit.exe

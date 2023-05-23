@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "7pUYoFaMTS5PWAC36Tj3XXveCoqJ6YDfUqBcoM8u4h4DC3W1sfRj7XMCowJ1ALmkZKVCftZGQ98xJjhT7gkCIQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jhka\\Desktop\\python_automation\\COVERSE\\Include\\sample\\CSC_2019\\Explore_C__8_0\\ExploreCsharpEight\\ExploreCsharpEight.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jhka\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\jhka\\.nuget\\packages\\system.commandline.dragonfruit\\0.3.0-alpha.19317.1\\system.commandline.dragonfruit.0.3.0-alpha.19317.1.nupkg.sha512",
+    "C:\\Users\\jhka\\.nuget\\packages\\system.commandline.experimental\\0.3.0-alpha.19317.1\\system.commandline.experimental.0.3.0-alpha.19317.1.nupkg.sha512",
+    "C:\\Users\\jhka\\.nuget\\packages\\system.commandline.rendering\\0.3.0-alpha.19317.1\\system.commandline.rendering.0.3.0-alpha.19317.1.nupkg.sha512",
+    "C:\\Users\\jhka\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\jhka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

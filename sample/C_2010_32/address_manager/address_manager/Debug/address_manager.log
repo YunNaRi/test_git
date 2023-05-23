@@ -1,0 +1,24 @@
+﻿빌드 시작: 2020-01-10 오후 4:24:18
+     1>2 노드의 "F:\SVN_Rep\001-2. RT Source Code\sun\1. C,C++\c_open\address_manager\address_manager\address_manager.vcxproj" 프로젝트(ClCompile 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt manager.c
+         manager.c
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(87): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(89): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(91): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(93): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(95): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(106): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>f:\svn_rep\001-2. rt source code\sun\1. c,c++\c_open\address_manager\address_manager\manager.c(147): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(277) : 'gets' 선언을 참조하십시오.
+     1>"F:\SVN_Rep\001-2. RT Source Code\sun\1. C,C++\c_open\address_manager\address_manager\address_manager.vcxproj" 프로젝트를 빌드했습니다(ClCompile 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:01.13

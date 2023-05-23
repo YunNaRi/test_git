@@ -1,0 +1,7 @@
+"D:\COVER\SAMPLE CODE(EE)\SAMPLE\C_2017_32\MIRO_2017\Q_S.h", line 1:
+          catastrophic error: cannot open source file "stdio.h"
+  #include <stdio.h>
+                    ^
+
+1 catastrophic error detected in the compilation of "D:\COVER\SAMPLE CODE(EE)\SAMPLE\C_2017_32\MIRO_2017\MIRO_FUN.C".
+Compilation terminated.

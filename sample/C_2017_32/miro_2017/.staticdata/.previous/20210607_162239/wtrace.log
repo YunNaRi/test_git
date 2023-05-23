@@ -1,0 +1,79 @@
+(15728)(    1)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\mspdbsrv.exe
+(15728)(    1) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(15728)(    1) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(15728) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(15728)(    1) + Ignored EXENAME: mspdbsrv
+( 9352)(    2)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\msbuild.exe
+( 9352)(    2) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 9352)(    2) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 9352) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 9352)(    2)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\msbuild.exe
+( 9352)(    2) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 9352)(    2) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 9352) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 9224)(    3)ME: C:\Windows\system32\conhost.exe
+( 9224)(    3) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 9224)(    3) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 9224) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 9224)(    3) + Ignored EXENAME: conhost
+(14528)(    4)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Tracker.exe
+(14528)(    4) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(14528)(    4) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(14528) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(14528)(    4) + Ignored EXENAME: tracker
+(10468)(    5)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe
+(10468)(    5) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(10468)(    5) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(10468) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(10468)(    5)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe
+(10468)(    5) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(10468)(    5) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(10468) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(14528)(    4)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Tracker.exe
+(14528)(    4) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(14528)(    4) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(14528) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 6584)(    6)ME: C:\Windows\system32\conhost.exe
+( 6584)(    6) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 6584)(    6) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 6584) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 6584)(    6) + Ignored EXENAME: conhost
+( 8624)(    7)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Tracker.exe
+( 8624)(    7) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 8624)(    7) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 8624) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 8624)(    7) + Ignored EXENAME: tracker
+( 1100)(    9)ME: C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86\rc.exe
+( 1100)(    9) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 1100)(    9) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 1100) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 1100)(    9) + Ignored EXENAME: rc
+( 1100)(    9)ME: C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86\rc.exe
+( 1100)(    9) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 1100)(    9) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 1100) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(12232)(   10)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\cvtres.exe
+(12232)(   10) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(12232)(   10) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(12232) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(12232)(   10) + Ignored EXENAME: cvtres
+(12232)(   10)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\cvtres.exe
+(12232)(   10) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(12232)(   10) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(12232) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(10924)(    8)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe
+(10924)(    8) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(10924)(    8) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(10924) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(10924)(    8)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe
+(10924)(    8) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(10924)(    8) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(10924) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+( 8624)(    7)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\bin\Tracker.exe
+( 8624)(    7) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+( 8624)(    7) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+( 8624) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr
+(15728)(    1)ME: C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\mspdbsrv.exe
+(15728)(    1) + HOME: C:\Users\luvyo\AppData\Local\Suresofttech\STATIC Toolbox\apps\STATIC Client for C, C++ v1.1.6\
+(15728)(    1) + WORKING: D:\COVER\Sample Code(EE)\sample\C_2017_32\miro_2017\.staticdata
+(15728) + IGNORE: msbuild xxxxx // INTEREST: cl gcc cc g++ ar link ld xxx xc8 cpp cpstm8 castm8 clnk tricore-gcc tricore-g++ ctoa etoa ecomppc elxr

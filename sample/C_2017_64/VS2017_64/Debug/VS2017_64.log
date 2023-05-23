@@ -1,0 +1,619 @@
+﻿빌드 시작: 2020-07-30 오후 4:28:09
+     1>2 노드의 "C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>도구 버전 "15.0"(을)를 사용하여 빌드하고 있습니다.
+       조건이 잘못되어 "EnableIntermediateOutputPathMismatchWarning" 대상을 건너뜁니다. ('$(RestoreProjectStyle)' == 'PackageReference')이(가) ('' == 'PackageReference')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForInvalidConfigurationAndPlatform" 대상("SetTelemetryEnvironmentVariables" 대상이 종속됨):
+       조건이 잘못되어 "Error" 작업을 건너뜁니다. ( '$(_InvalidConfigurationError)' == 'true' )이(가) ( '' == 'true' )(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ( '$(_InvalidConfigurationWarning)' == 'true' )이(가) ( '' == 'true' )(으)로 확인되었습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "Message" 작업을 사용합니다.
+       "Message" 작업
+         Configuration=Debug
+       "Message" 작업을 실행했습니다.
+       "Message" 작업
+         Platform=Win32
+       "Message" 작업을 실행했습니다.
+       조건이 잘못되어 "Error" 작업을 건너뜁니다. ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))이(가) ('C:\Users\jhka\source\repos\VS2017_64\Debug\' != '' and !HasTrailingSlash('C:\Users\jhka\source\repos\VS2017_64\Debug\'))(으)로 확인되었습니다.
+       조건이 잘못되어 "Error" 작업을 건너뜁니다. ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))이(가) ('obj\' != '' and !HasTrailingSlash('obj\'))(으)로 확인되었습니다.
+       조건이 잘못되어 "Error" 작업을 건너뜁니다. ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))이(가) ('Debug\' != '' and !HasTrailingSlash('Debug\'))(으)로 확인되었습니다.
+       조건이 잘못되어 "Error" 작업을 건너뜁니다. ( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' )이(가) ( 'C:\Users\jhka\source\repos\VS2017_64\VS2017_64\obj\' != '' And 'C:\Users\jhka\source\repos\VS2017_64\VS2017_64\obj\' != 'C:\Users\jhka\source\repos\VS2017_64\VS2017_64\obj\' )(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' )이(가) ( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'C:\Users\jhka\source\repos\VS2017_64\VS2017_64\obj\' )(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_CheckForInvalidConfigurationAndPlatform" 대상을 빌드했습니다.
+       "_CheckForInvalidConfigurationAndPlatform" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets" 파일에 있는 "SetTelemetryEnvironmentVariables" 대상("Rebuild" 대상이 종속됨):
+       "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "SetEnv" 작업을 사용합니다.
+       "SetEnv" 작업
+         VSTEL_SolutionSessionID={E1004BA4-43BF-40FC-9C64-AC6114465DC7}
+       "SetEnv" 작업을 실행했습니다.
+       "SetEnv" 작업
+         VSTEL_CurrentSolutionBuildID=1484527250
+       "SetEnv" 작업을 실행했습니다.
+       "SetEnv" 작업
+         VSTEL_ProjectID={205432B7-275F-41DE-9684-541415F80D2F}
+       "SetEnv" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "SetTelemetryEnvironmentVariables" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "_PrepareForRebuild" 대상("Rebuild" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_PrepareForRebuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BeforeRebuild" 대상("Rebuild" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeRebuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "_PrepareForClean" 대상("Clean" 대상이 종속됨):
+       조건이 잘못되어 "Delete" 작업을 건너뜁니다. (Exists($(LastBuildState)))이(가) (Exists(Debug\VS2017_64.tlog\VS2017_64.lastbuildstate))(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_PrepareForClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BeforeClean" 대상("Clean" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeClean" 대상을 빌드했습니다.
+       조건이 잘못되어 "UnmanagedUnregistration" 대상을 건너뜁니다. ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)'))이(가) ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\VS2017_64.vcxproj.UnmanagedRegistration.cache'))(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CoreClean" 대상("Clean" 대상이 종속됨):
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "Delete" 작업을 사용합니다.
+       "Delete" 작업
+         "Debug\\TempCA\VS2017_64.pdb" 파일이 없습니다. 건너뜁니다.
+         "Debug\\TempCA\VS2017_64.exe" 파일이 없습니다. 건너뜁니다.
+       "Delete" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "ReadLinesFromFile" 작업을 사용합니다.
+       "ReadLinesFromFile" 작업
+       "ReadLinesFromFile" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "FindUnderPath" 작업을 사용합니다.
+       "FindUnderPath" 작업
+         비교 경로는 "C:\Users\jhka\source\repos\VS2017_64\Debug\"입니다.
+       "FindUnderPath" 작업을 실행했습니다.
+       "FindUnderPath" 작업
+         비교 경로는 "Debug\"입니다.
+       "FindUnderPath" 작업을 실행했습니다.
+       "Delete" 작업
+       "Delete" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "RemoveDuplicates" 작업을 사용합니다.
+       "RemoveDuplicates" 작업
+       "RemoveDuplicates" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "MakeDir" 작업을 사용합니다.
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "WriteLinesToFile" 작업을 사용합니다.
+       "WriteLinesToFile" 작업
+       "WriteLinesToFile" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "CoreClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AssignProjectConfiguration" 대상("PrepareProjectReferences" 대상이 종속됨):
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "AssignProjectConfiguration" 작업을 사용합니다.
+       "AssignProjectConfiguration" 작업
+       "AssignProjectConfiguration" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "AssignProjectConfiguration" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_SplitProjectReferencesByFileExistence" 대상("PrepareProjectReferences" 대상이 종속됨):
+       조건이 잘못되어 "ResolveNonMSBuildProjectOutput" 작업을 건너뜁니다. ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')이(가) ('true'=='true' and ''!='')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_SplitProjectReferencesByFileExistence" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GetProjectReferenceTargetFrameworkProperties" 대상("PrepareProjectReferences" 대상이 종속됨):
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "MSBuild" 작업을 사용합니다.
+       "MSBuild" 작업
+       "MSBuild" 작업을 실행했습니다.
+       조건이 잘못되어 "GetReferenceNearestTargetFrameworkTask" 작업을 건너뜁니다. ('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '')이(가) ('0' != '0' and '.NETFramework,Version=v4.0' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_GetProjectReferenceTargetFrameworkProperties" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareProjectReferences" 대상("CleanReferencedProjects" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "PrepareProjectReferences" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CleanReferencedProjects" 대상("Clean" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('true' != 'true' and 'true' == 'true' and '' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "CleanReferencedProjects" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CleanPublishFolder" 대상("Clean" 대상이 종속됨):
+       조건이 잘못되어 "RemoveDir" 작업을 건너뜁니다. ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)'))이(가) ('C:\Users\jhka\source\repos\VS2017_64\Debug\app.publish\'=='C:\Users\jhka\source\repos\VS2017_64\Debug\app.publish\' and Exists('C:\Users\jhka\source\repos\VS2017_64\Debug\app.publish\'))(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "CleanPublishFolder" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AfterClean" 대상("Clean" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterClean" 대상을 빌드했습니다.
+       조건이 잘못되어 "EntityClean" 대상을 건너뜁니다. ('@(EntityDeploy)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" 파일에 있는 "BeforeCppClean" 대상("CppClean" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeCppClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" 파일에 있는 "CoreCppClean" 대상("CppClean" 대상이 종속됨):
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+       "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "CppClean" 작업을 사용합니다.
+       "CppClean" 작업
+       "CppClean" 작업을 실행했습니다.
+       "WriteLinesToFile" 작업
+       "WriteLinesToFile" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "CoreCppClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" 파일에 있는 "AfterCppClean" 대상("CppClean" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterCppClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" 파일에 있는 "PGInstrumentedClean" 대상("CppClean" 대상이 종속됨):
+       "Delete" 작업
+       "Delete" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "PGInstrumentedClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets" 파일에 있는 "CppClean" 대상("Clean" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "CppClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "Clean" 대상("Rebuild" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "Clean" 대상을 빌드했습니다.
+       "SetTelemetryEnvironmentVariables" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "_PrepareForBuild" 대상("Build" 대상이 종속됨):
+       조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('%(CustomBuild.IncludeFileToTool)'!='')이(가) (''!='')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_PrepareForBuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_PrepareForReferenceResolution" 대상("ResolveReferences" 대상이 종속됨):
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(_REFERENCE_DEBUG)'=='true')이(가) (''=='true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_PrepareForReferenceResolution" 대상을 빌드했습니다.
+       조건이 잘못되어 "ComputeCrtSDKReference" 대상을 건너뜁니다. ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')이(가) ('bit_check.c'!='' and 'false'=='true' and '' != 'false')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BeforeResolveReferences" 대상("ResolveReferences" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeResolveReferences" 대상을 빌드했습니다.
+       "AssignProjectConfiguration" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "_RemoveNameMetadataFromProjectReferenceItems" 대상을 건너뜁니다. ('@(ProjectReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveProjectReferences" 대상("ResolveReferences" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')이(가) ('' == 'true' and '' != '' and 'true' == 'true' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ResolveProjectReferences" 대상을 빌드했습니다.
+       조건이 잘못되어 "FindInvalidProjectReferences" 대상을 건너뜁니다. ('$(FindInvalidProjectReferences)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "ResolveNativeReferences" 대상을 건너뜁니다. ('@(NativeReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
+       "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ResolveProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "FindInvalidProjectReferences" 대상을 건너뜁니다. ('$(FindInvalidProjectReferences)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" 파일에 있는 "GetFrameworkPaths" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "GetFrameworkPaths" 대상을 빌드했습니다.
+       "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "GetWinFXPath" 대상을 건너뜁니다. (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' ))이(가) (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' ))(으)로 확인되었습니다.
+       "GetFrameworkPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "GetReferenceAssemblyPaths" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+       조건이 잘못되어 "GetReferenceAssemblyPaths" 작업을 건너뜁니다. ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))이(가) ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == ''))(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "GetReferenceAssemblyPaths" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" 파일에 있는 "SetBuildDefaultEnvironmentVariables" 대상("PrepareForBuild" 대상이 종속됨):
+       "SetEnv" 작업
+         PATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86;C:\Program Files (x86)\Windows Kits\10\bin\10.0.18362.0\x86;;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.6.1 Tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Windows\SysWow64;;C:\Program Files (x86)\GnuWin32\bin;C:\gcc\5.3.0\32bit\bin;C:\gcc\4.7.2\32bit\bin;C:\Program Files (x86)\Python37-32\Scripts\;C:\Program Files (x86)\Python37-32\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\dotnet\;C:\Program Files\Java\java-11-openjdk-11.0.3.7-1.windows.ojdkbuild.x86_64\bin;C:\Program Files\PuTTY\;C:\AutoSet10\Server\conf\;C:\AutoSet10\Server\bin\;C:\Program Files\Microsoft SQL Server\110\Tools\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.222-2\bin;C:\Program Files\ojdkbuild\java-1.8.0-openjdk-1.8.0.222-2\jre\bin;C:\Program Files\MATLAB\R2019b\bin;C:\Program Files\MATLAB\R2019a\bin;C:\Program Files\MATLAB\R2016b\bin;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MATLAB\R2011b\bin;C:\Program Files\VisualSVN Server\bin;C:\Chrome_Driver;C:\Program Files\Git\cmd;C:\Program Files\Python37;C:\Program Files (x86)\Python37-32;C:\Program Files (x86)\Python37-32\Scripts;C:\Program Files (x86)\Python37-32\Lib;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\cygwin64\bin;C:\Users\jhka\Desktop\SampleCode;C:\Windows\System32\cmd.exe;C:\QualityScroll-Cover-SE\wrapper\GCC53;C:\QualityScroll-Cover-SE\wrapper\GCC47;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\Microsoft DNX\Dnvm\;C:\Users\jhka\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\java-11-openjdk-11.0.3.7-1.windows.ojdkbuild.x86_64\bin;C:\Users\jhka\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jhka\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2020.1.1\bin;;C:\QualityScroll-Cover-SE\lib;C:\QualityScroll-Cover-SE\bin\ui;C:\QualityScroll-Cover-SE\bin;
+       "SetEnv" 작업을 실행했습니다.
+       "SetEnv" 작업
+         LIB=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\lib\x86;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\ucrt\x86;;;C:\Program Files (x86)\Windows Kits\10\lib\10.0.18362.0\um\x86;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\lib\um\x86;;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Lib\um\x86
+       "SetEnv" 작업을 실행했습니다.
+       "SetEnv" 작업
+         LIBPATH=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\lib\x86;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86;
+       "SetEnv" 작업을 실행했습니다.
+       "SetEnv" 작업
+         INCLUDE=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\include;;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt;;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       "SetEnv" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "SetBuildDefaultEnvironmentVariables" 대상을 빌드했습니다.
+       조건이 잘못되어 "SetUserMacroEnvironmentVariables" 대상을 건너뜁니다. ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')이(가) ('' != '' and '' != 'true')(으)로 확인되었습니다.
+       "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "GetResolvedWinMD" 대상("PrepareForBuild" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "GetResolvedWinMD" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" 파일에 있는 "PlatformPrepareForBuild" 대상("PrepareForBuild" 대상이 종속됨):
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(_Error64bitToolsNotInstalled)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '')이(가) (''!='true' and 'true' != 'true' and 'v141' == '')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110')이(가) (''!='true' and 'true' != 'true' and 'v141' == 'v110')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100')이(가) (''!='true' and 'true' != 'true' and 'v141' == 'v100')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90')이(가) (''!='true' and 'true' != 'true' and 'v141' == 'v90')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110')이(가) (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "PlatformPrepareForBuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Cpp.WindowsSDK.targets" 파일에 있는 "_CheckWindowsSDKInstalled" 대상("PrepareForBuild" 대상이 종속됨):
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(WindowsSDKInstalled)' != 'true')이(가) ('true' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(WindowsAppContainer)' != 'true' and '$(WindowsSDK_Desktop_Support)' != true)이(가) ('false' != 'true' and 'true' != true)(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_CheckWindowsSDKInstalled" 대상을 빌드했습니다.
+       "GetFrameworkPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "GetReferenceAssemblyPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "AssignLinkMetadata" 대상을 건너뜁니다. ( '$(SynthesizeLinkMetadata)' == 'true' )이(가) ( '' == 'true' )(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" 파일에 있는 "SetCABuildNativeEnvironmentVariables" 대상("PrepareForBuild" 대상이 종속됨):
+       "SetEnv" 작업
+         CAExcludePath=C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\atlmfc\include;C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\winrt;C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\cppwinrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\Include\um;
+       "SetEnv" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "SetCABuildNativeEnvironmentVariables" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "PrepareForBuild" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true')이(가) ('' != 'true' and 'true' != 'true')(으)로 확인되었습니다.
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary')이(가) (''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' ))이(가) (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true' and ('v4.0'=='v3.5' or 'v4.0'=='v3.0' or 'v4.0'=='v2.0' ))(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')이(가) (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true' and 'v141'=='v90')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true')이(가) (''!='true' and 'C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\'=='' and '' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')이(가) (''!='true' and 'C:\Program Files (x86)\Windows Kits\10\'=='' and '' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true')이(가) (''!='true' and ''=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true')이(가) (''!='true' and ''=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true')이(가) ('' != '' and ''!='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true')이(가) ('' != 'true' and '' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true'))이(가) (''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(DesignTimeBuild)' != 'true' and '$(SpectreMitigation)' != '' and '$(SpectreMitigation)' != 'false' and (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_x86_OneCore)')) or ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_x86_Desktop)'))))이(가) ('' != 'true' and 'false' != '' and 'false' != 'false' and (('Desktop' == 'OneCore' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\onecore\x86')) or ('Desktop' == 'Desktop' and !Exists('C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\lib\x86'))))(으)로 확인되었습니다.
+       "MakeDir" 작업
+         "C:\Users\jhka\source\repos\VS2017_64\Debug\" 디렉터리를 만들고 있습니다.
+         "Debug\VS2017_64.tlog\" 디렉터리를 만들고 있습니다.
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "PrepareForBuild" 대상을 빌드했습니다.
+       "_PrepareForReferenceResolution" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "ComputeCrtSDKReference" 대상을 건너뜁니다. ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')이(가) ('bit_check.c'!='' and 'false'=='true' and '' != 'false')(으)로 확인되었습니다.
+       조건이 잘못되어 "GetInstalledSDKLocations" 대상을 건너뜁니다. ('@(SDKReference)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveSDKReferences" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+       조건이 잘못되어 "ResolveSDKReference" 작업을 건너뜁니다. ('@(SDKReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ResolveSDKReferences" 대상을 빌드했습니다.
+       "ResolveSDKReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ExpandSDKReferences" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+       조건이 잘못되어 "GetSDKReferenceFiles" 작업을 건너뜁니다. ('@(ResolvedSDKReference)'!='')이(가) (''!='')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ExpandSDKReferences" 대상을 빌드했습니다.
+       조건이 잘못되어 "ResolveNuGetPackageAssets" 대상을 건너뜁니다. ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)'))이(가) ('true' == 'true' and exists('obj\project.assets.json'))(으)로 확인되었습니다.
+       조건이 잘못되어 "ImplicitlyExpandNETStandardFacades" 대상을 건너뜁니다. ('$(ImplicitlyExpandNETStandardFacades)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+       "GetReferenceAssemblyPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "ImplicitlyExpandNETStandardFacades" 대상을 건너뜁니다. ('$(ImplicitlyExpandNETStandardFacades)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\Microsoft.NET.Build.Extensions.ConflictResolution.targets" 파일에 있는 "_HandlePackageFileConflicts" 대상("ResolveAssemblyReferences" 대상이 종속됨):
+       "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\Microsoft\Microsoft.NET.Build.Extensions\\tools\net46\Microsoft.NET.Build.Extensions.Tasks.dll" 어셈블리에서 "ResolvePackageFileConflicts" 작업을 사용합니다.
+       "ResolvePackageFileConflicts" 작업
+       "ResolvePackageFileConflicts" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_HandlePackageFileConflicts" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveAssemblyReferences" 대상("ResolveReferences" 대상이 종속됨):
+       조건이 잘못되어 "ResolveAssemblyReference" 작업을 건너뜁니다. ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')이(가) (''!='' or ''!='' or '' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ResolveAssemblyReferences" 대상을 빌드했습니다.
+       조건이 잘못되어 "GenerateBindingRedirects" 대상을 건너뜁니다. ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true')이(가) ('' == 'true' and 'true' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "_RemoveZipFileSuggestedRedirect" 대상을 건너뜁니다. ('$(_TargetFrameworkVersionWithoutV)' >= '4.7.1' And '$(AllowZipFileRedirect)' != 'true')이(가) ('4.0' >= '4.7.1' And '' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "GenerateBindingRedirectsUpdateAppConfig" 대상을 건너뜁니다. ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)'))이(가) ('' == 'true' and 'true' == 'true' and Exists('Debug\VS2017_64.exe.config'))(으)로 확인되었습니다.
+       조건이 잘못되어 "ResolveComReferences" 대상을 건너뜁니다. ('@(COMReference)'!='' or '@(COMFileReference)'!='')이(가) (''!='' or ''!='')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AfterResolveReferences" 대상("ResolveReferences" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterResolveReferences" 대상을 빌드했습니다.
+       조건이 잘못되어 "ImplicitlyExpandDesignTimeFacades" 대상을 건너뜁니다. ('$(ImplicitlyExpandDesignTimeFacades)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "ResolveTestReferences" 대상을 건너뜁니다. ('@(Shadow)'!='')이(가) (''!='')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "ResolveReferences" 대상("Build" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ResolveReferences" 대상을 빌드했습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "InitializeBuildStatus" 대상("Build" 대상이 종속됨):
+       "ReadLinesFromFile" 작업
+       "ReadLinesFromFile" 작업을 실행했습니다.
+       "WriteLinesToFile" 작업
+       "WriteLinesToFile" 작업을 실행했습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "Touch" 작업을 사용합니다.
+       "Touch" 작업
+         "AlwaysCreate"이(가) 지정되었기 때문에 "Debug\VS2017_64.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       "Touch" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "InitializeBuildStatus" 대상을 빌드했습니다.
+       "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildGenerateSourcesTraverse" 대상("BuildGenerateSources" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')이(가) ('' == 'true' and '' != '' and '' != '' and '' == 'true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "BuildGenerateSourcesTraverse" 대상을 빌드했습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "BeforeBuildGenerateSources" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeBuildGenerateSources" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "PreBuildEvent" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('%(PreBuildEvent.Command)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "PreBuildEvent" 대상을 빌드했습니다.
+       조건이 잘못되어 "CustomBuild" 대상을 건너뜁니다. ('@(CustomBuild)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "FxExport" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "FxCompile" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "_CreateCopyFileItems" 대상을 건너뜁니다. ('@(CopyFileToFolders)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "InitializeBuildStatus" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "SetBuildDefaultEnvironmentVariables" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       조건이 잘못되어 "SetUserMacroEnvironmentVariables" 대상을 건너뜁니다. ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')이(가) ('' != '' and '' != 'true')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_SelectedFiles" 대상("CopyFileToFolders" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_SelectedFiles" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "CopyFileToFolders" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+       "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "GetOutOfDateItems" 작업을 사용합니다.
+       "GetOutOfDateItems" 작업
+       "GetOutOfDateItems" 작업을 실행했습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('@(_OutOfDateCopyFile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "CopyFileToFolders" 대상을 빌드했습니다.
+       조건이 잘못되어 "Xsd" 대상을 건너뜁니다. ('@(Xsd)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_Xsd" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_Xsd" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForMidl" 대상("_Midl" 대상이 종속됨):
+       "Makedir" 작업
+       "Makedir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "MakeDirsForMidl" 대상을 빌드했습니다.
+       조건이 잘못되어 "Midl" 대상을 건너뜁니다. ('@(Midl)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "CustomBuild" 대상을 건너뜁니다. ('@(CustomBuild)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "FxExport" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "FxCompile" 대상을 건너뜁니다. ('@(FxCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeMIDLGeneratedCompileInputs" 대상("_Midl" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeMIDLGeneratedCompileInputs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "AfterMidl" 대상("_Midl" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterMidl" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_Midl" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_Midl" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "AfterBuildGenerateSources" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterBuildGenerateSources" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "AfterBuildGenerateSourcesEvent" 대상("_BuildGenerateSourcesAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterBuildGenerateSourcesEvent" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_BuildGenerateSourcesAction" 대상("BuildGenerateSources" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_BuildGenerateSourcesAction" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildGenerateSources" 대상("Build" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BuildGenerateSources" 대상을 빌드했습니다.
+       "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildCompileTraverse" 대상("BuildCompile" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')이(가) ('' == 'true' and '' != '' and '' != ''  and '' == 'true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "BuildCompileTraverse" 대상을 빌드했습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "BeforeClCompile" 대상("_ClCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeClCompile" 대상을 빌드했습니다.
+       "ComputeMIDLGeneratedCompileInputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLInputPDBName" 대상("_ClCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeCLInputPDBName" 대상을 빌드했습니다.
+       "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeReferenceCLInput" 대상("_ClCompile" 대상이 종속됨):
+       조건이 잘못되어 "WriteLinesToFile" 작업을 건너뜁니다. (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true')이(가) ((''!='') and '' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(_REFERENCE_DEBUG)'=='true')이(가) (''=='true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeReferenceCLInput" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "WarnCompileDuplicatedFilename" 대상("_ClCompile" 대상이 종속됨):
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())')이(가) ('' != 'true' and 'bit_check.c' != 'bit_check.c' and 'Debug\' == 'Debug\')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "WarnCompileDuplicatedFilename" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "FixupCLCompileOptions" 대상("_ClCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "FixupCLCompileOptions" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForCl" 대상("_ClCompile" 대상이 종속됨):
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "MakeDirsForCl" 대상을 빌드했습니다.
+       "_SelectedFiles" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ComputeMIDLGeneratedCompileInputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ComputeCLInputPDBName" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ComputeReferenceCLInput" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "WarnCompileDuplicatedFilename" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "FixupCLCompileOptions" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "_SelectedFiles" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "SelectCustomBuild" 대상("SelectClCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "SelectCustomBuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "SelectClCompile" 대상("ClCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "SelectClCompile" 대상을 빌드했습니다.
+       조건이 잘못되어 "GenerateTargetFrameworkMonikerAttribute" 대상을 건너뜁니다. ('$(GenerateTargetFrameworkAttribute)' == 'true')이(가) ('false' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "ManagedIncrementalBuildPreProcessDependencyGraph" 대상을 건너뜁니다. ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')이(가) ('bit_check.c' != '' and 'false' == 'True')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "ClCompile" 대상("_ClCompile" 대상이 종속됨):
+       "Delete" 작업
+       "Delete" 작업을 실행했습니다.
+       조건이 잘못되어 "CL" 작업을 건너뜁니다. ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true' and '%(ClCompile.CompilerIteration)' == '')이(가) ('NotUsing' == 'Create' and ''!='true' and '' == '')(으)로 확인되었습니다.
+       "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "CL" 작업을 사용합니다.
+       "CL" 작업
+         PDB "Debug\vc141.pdb" 누락으로 인해 모든 소스 파일을 강제로 다시 컴파일합니다.
+         도구로 전달된 환경 변수:
+           VS_UNICODE_OUTPUT=1624
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:prompt bit_check.c
+         추적 명령:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\jhka\source\repos\VS2017_64\VS2017_64\Debug\VS2017_64.tlog /r C:\USERS\JHKA\SOURCE\REPOS\VS2017_64\VS2017_64\BIT_CHECK.C /b MSBuildConsole_CancelEvent9d3571952fda401d91a123971be03406  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe"  /c /ZI /JMC /nologo /W3 /WX- /diagnostics:classic /sdl /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:prompt bit_check.c
+         bit_check.c
+       "CL" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ClCompile" 대상을 빌드했습니다.
+       조건이 잘못되어 "RunSelectedFileNativeCodeAnalysis" 대상을 건너뜁니다. ('$(RunCppAnalysis)'=='true' and '$(SelectedFiles)'!='')이(가) ('false'=='true' and ''!='')(으)로 확인되었습니다.
+       조건이 잘못되어 "ManagedIncrementalBuildPostProcessDependencyGraph" 대상을 건너뜁니다. ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True')이(가) ('bit_check.c' != '' and 'false' == 'True')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "AfterClCompile" 대상("_ClCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterClCompile" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_ClCompile" 대상("_BuildCompileAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_ClCompile" 대상을 빌드했습니다.
+       조건이 잘못되어 "_ResGen" 대상을 건너뜁니다. ('@(EmbeddedResource)'!='')이(가) (''!='')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "BeforeResourceCompile" 대상("_ResourceCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeResourceCompile" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForResourceCompile" 대상("_ResourceCompile" 대상이 종속됨):
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "MakeDirsForResourceCompile" 대상을 빌드했습니다.
+       조건이 잘못되어 "ResourceCompile" 대상을 건너뜁니다. ('@(ResourceCompile)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "AfterResourceCompile" 대상("_ResourceCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterResourceCompile" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_ResourceCompile" 대상("_BuildCompileAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_ResourceCompile" 대상을 빌드했습니다.
+       조건이 잘못되어 "_ImpLib" 대상을 건너뜁니다. ('$(ImpLibCompiled)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "_Lib" 대상을 건너뜁니다. ('$(LibCompiled)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "AfterBuildCompileEvent" 대상("_BuildCompileAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterBuildCompileEvent" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_BuildCompileAction" 대상("BuildCompile" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_BuildCompileAction" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildCompile" 대상("Build" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BuildCompile" 대상을 빌드했습니다.
+       "PrepareProjectReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildLinkTraverse" 대상("BuildLink" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')이(가) ('' == 'true' and '' != '' and '' != ''  and '' == 'true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "BuildLinkTraverse" 대상을 빌드했습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLegacyManifestEmbedding" 대상("_BuildLinkAction" 대상이 종속됨):
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(RevertManifestEmbedding)' == 'true' and '$(_LegacyManifestEmbeddingDebug)' == 'true')이(가) ('' == 'true' and '' == 'true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeLegacyManifestEmbedding" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "BeforeLink" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BeforeLink" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeRCOutputs" 대상("ComputeRCGeneratedLinkInputs" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeRCOutputs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeRCGeneratedLinkInputs" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeRCGeneratedLinkInputs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeManifestGeneratedLinkerInputs" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeManifestGeneratedLinkerInputs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCustomBuildOutput" 대상("_Link" 대상이 종속됨):
+       조건이 잘못되어 "CreateItem" 작업을 건너뜁니다. ('%(CustomBuildOutputs.OutputItemType)'!='')이(가) (''!='')(으)로 확인되었습니다.
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeCustomBuildOutput" 대상을 빌드했습니다.
+       "ComputeMIDLGeneratedCompileInputs" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ComputeCLInputPDBName" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ComputeReferenceCLInput" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "WarnCompileDuplicatedFilename" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "FixupCLCompileOptions" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLOutputs" 대상("ComputeCLGeneratedLinkInputs" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeCLOutputs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLGeneratedLinkInputs" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeCLGeneratedLinkInputs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLinkInputsFromProject" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeLinkInputsFromProject" 대상을 빌드했습니다.
+       조건이 잘못되어 "ComputeReferenceLinkInputs" 대상을 건너뜁니다. (@(ProjectReference) != '')이(가) ( != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeManifestInputsTargets" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeManifestInputsTargets" 대상을 빌드했습니다.
+       조건이 잘못되어 "ManifestResourceCompile" 대상을 건너뜁니다. ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '')이(가) ('LINK' == 'LINK' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "AssignWinFXEmbeddedResource" 대상을 건너뜁니다. ('@(WinFXEmbeddedResource)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AssignTargetPaths" 대상("PrepareResourceNames" 대상이 종속됨):
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "AssignTargetPath" 작업을 사용합니다.
+       "AssignTargetPath" 작업
+       "AssignTargetPath" 작업을 실행했습니다.
+       "AssignTargetPath" 작업
+       "AssignTargetPath" 작업을 실행했습니다.
+       "AssignTargetPath" 작업
+       "AssignTargetPath" 작업을 실행했습니다.
+       "AssignTargetPath" 작업
+       "AssignTargetPath" 작업을 실행했습니다.
+       조건이 잘못되어 "AssignTargetPath" 작업을 건너뜁니다. ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest')이(가) (''=='' and ''=='.manifest')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "AssignTargetPaths" 대상을 빌드했습니다.
+       "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "SplitResourcesByCulture" 대상("PrepareResourceNames" 대상이 종속됨):
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ResxWithNoCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ResxWithCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(NonResxWithCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(NonResxWithNoCulture)'!='')이(가) (''!='')(으)로 확인되었습니다.
+       "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" 어셈블리에서 "AssignCulture" 작업을 사용합니다.
+       "AssignCulture" 작업
+       "AssignCulture" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "SplitResourcesByCulture" 대상을 빌드했습니다.
+       조건이 잘못되어 "CreateManifestResourceNames" 대상을 건너뜁니다. ('@(EmbeddedResource)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CreateCustomManifestResourceNames" 대상("PrepareResourceNames" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "CreateCustomManifestResourceNames" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareResourceNames" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "PrepareResourceNames" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForLink" 대상("_Link" 대상이 종속됨):
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "MakeDirsForLink" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "DoLinkOutputFilesMatch" 대상("_Link" 대상이 종속됨):
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' == '')이(가) ('C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe' == '')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))')이(가) ('C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe' != '' and 'C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe' != 'C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)')이(가) ('C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe' != '' and '.exe' != '' and '.exe' != '.exe')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)')이(가) ('C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe' != '' and 'VS2017_64' != '' and 'VS2017_64' != 'VS2017_64')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet'))이(가) ('' != '' and ('Console' == '' or 'Console' == 'NotSet'))(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "DoLinkOutputFilesMatch" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "PreLinkEvent" 대상("_Link" 대상이 종속됨):
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('%(PreLinkEvent.Command)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "PreLinkEvent" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "ComputeLinkSwitches" 대상("Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeLinkSwitches" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "Link" 대상("_Link" 대상이 종속됨):
+       "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll" 어셈블리에서 "Link" 작업을 사용합니다.
+       "Link" 작업
+         도구로 전달된 환경 변수:
+           VS_UNICODE_OUTPUT=1732
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.lib" /MACHINE:X86 Debug\bit_check.obj
+         추적 명령:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\jhka\source\repos\VS2017_64\VS2017_64\Debug\VS2017_64.tlog /r C:\USERS\JHKA\SOURCE\REPOS\VS2017_64\VS2017_64\DEBUG\BIT_CHECK.OBJ /b MSBuildConsole_CancelEvent2f338fa976e746cca80fa940dfa890f2  /c "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.lib" /MACHINE:X86 Debug\bit_check.obj
+       "Link" 작업을 실행했습니다.
+       "Message" 작업
+         VS2017_64.vcxproj -> C:\Users\jhka\source\repos\VS2017_64\Debug\VS2017_64.exe
+       "Message" 작업을 실행했습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'DebugFastLink' and %(Link.ProgramDataBaseFileName) != '')이(가) (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    DebugFastLink == 'DebugFastLink' and  != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
+                    %(Link.GenerateDebugInformation) == 'true' and %(Link.ProgramDataBaseFileName) != '')이(가) (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
+                    DebugFastLink == 'true' and  != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "Link" 대상을 빌드했습니다.
+       조건이 잘못되어 "MetaGenInputsOutputs" 대상을 건너뜁니다. ('$(EnableManagedIncrementalBuild)' == 'True')이(가) ('false' == 'True')(으)로 확인되었습니다.
+       조건이 잘못되어 "ComputeMetaGenInputs" 대상을 건너뜁니다. ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false')이(가) ('false'!='' and 'false'!='false')(으)로 확인되었습니다.
+       조건이 잘못되어 "MetaGen" 대상을 건너뜁니다. ('@(MetaGen)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeLinkImportLibraryOutputsForClean" 대상("_Link" 대상이 종속됨):
+       조건이 잘못되어 "WriteLinesToFile" 작업을 건너뜁니다. ('@(_LinkSecondaryOutput)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeLinkImportLibraryOutputsForClean" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "AfterLink" 대상("_Link" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterLink" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_Link" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_Link" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_ALink" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_ALink" 대상을 빌드했습니다.
+       "ComputeLegacyManifestEmbedding" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_Manifest" 대상("_BuildLinkAction" 대상이 종속됨):
+       조건이 잘못되어 "CallTarget" 작업을 건너뜁니다. ('$(LegacyManifestEmbedding)' == 'true')이(가) ('' == 'true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_Manifest" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "RegisterOutput" 대상("_BuildLinkAction" 대상이 종속됨):
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')이(가) ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')이(가) ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true')이(가) ('Application'=='Application' and 'false'=='true' and 'false'!='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true')이(가) ('Application'=='Application' and 'false'=='true' and 'false'=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "VCMessage" 작업을 건너뜁니다. ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0')이(가) ('' != '' and '' != '0')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "RegisterOutput" 대상을 빌드했습니다.
+       "PrepareForBuild" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "ResolveReferences" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ResolvedXDCMake" 대상("_XdcMake" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true')이(가) ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "ResolvedXDCMake" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLCompileGeneratedXDCFiles" 대상("_XdcMake" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeCLCompileGeneratedXDCFiles" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForXdcMake" 대상("_XdcMake" 대상이 종속됨):
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "MakeDirsForXdcMake" 대상을 빌드했습니다.
+       조건이 잘못되어 "XdcMake" 대상을 건너뜁니다. ('@(XdcMake)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_XdcMake" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_XdcMake" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "ComputeCLCompileGeneratedSbrFiles" 대상("_BscMake" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "ComputeCLCompileGeneratedSbrFiles" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "MakeDirsForBscMake" 대상("_BscMake" 대상이 종속됨):
+       "MakeDir" 작업
+       "MakeDir" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "MakeDirsForBscMake" 대상을 빌드했습니다.
+       조건이 잘못되어 "BscMake" 대상을 건너뜁니다. ('@(BscMake)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "CustomBuildStep" 대상을 건너뜁니다. ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')이(가) ('' != '' and ''=='')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_BscMake" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_BscMake" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_GenerateSatelliteAssemblyInputs" 대상("CreateSatelliteAssemblies" 대상이 종속됨):
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='')이(가) (''!='' and ''=='')(으)로 확인되었습니다.
+       조건이 잘못되어 "Warning" 작업을 건너뜁니다. ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='')이(가) (''!='' and ''=='')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "_GenerateSatelliteAssemblyInputs" 대상을 빌드했습니다.
+       조건이 잘못되어 "ComputeIntermediateSatelliteAssemblies" 대상을 건너뜁니다. (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')이(가) ( != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "GenerateSatelliteAssemblies" 대상을 건너뜁니다. ('@(_SatelliteAssemblyResourceInputs)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CreateSatelliteAssemblies" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "CreateSatelliteAssemblies" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_Appverifier" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_Appverifier" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_Deploy" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_Deploy" 대상을 빌드했습니다.
+       조건이 잘못되어 "ComputeIntermediateSatelliteAssemblies" 대상을 건너뜁니다. (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '')이(가) ( != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "_CopyFilesMarkedCopyLocal" 대상을 건너뜁니다. ('@(ReferenceCopyLocalPaths)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       "AssignTargetPaths" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "_SplitProjectReferencesByFileExistence" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+       "_GetProjectReferenceTargetFrameworkProperties" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" 파일에 있는 "GetCopyToOutputDirectoryXamlAppDefs" 대상("GetCopyToOutputDirectoryItems" 대상이 종속됨):
+       "AssignTargetPath" 작업
+       "AssignTargetPath" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "GetCopyToOutputDirectoryXamlAppDefs" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "GetCopyToOutputDirectoryItems" 대상("_CopySourceItemsToOutputDirectory" 대상이 종속됨):
+       조건이 잘못되어 "MSBuild" 작업을 건너뜁니다. ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true')이(가) ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true')(으)로 확인되었습니다.
+       "AssignTargetPath" 작업
+       "AssignTargetPath" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "GetCopyToOutputDirectoryItems" 대상을 빌드했습니다.
+       조건이 잘못되어 "_CopyOutOfDateSourceItemsToOutputDirectory" 대상을 건너뜁니다. ( '@(_SourceItemsToCopyToOutputDirectory)' != '' )이(가) ( '' != '' )(으)로 확인되었습니다.
+       조건이 잘못되어 "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" 대상을 건너뜁니다. ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' )이(가) ( '' != '' )(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CopySourceItemsToOutputDirectory" 대상("CopyFilesToOutputDirectory" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_CopySourceItemsToOutputDirectory" 대상을 빌드했습니다.
+       조건이 잘못되어 "_CopyAppConfigFile" 대상을 건너뜁니다. ( '@(AppConfigWithTargetPath)' != '' )이(가) ( '' != '' )(으)로 확인되었습니다.
+       조건이 잘못되어 "_CopyManifestFiles" 대상을 건너뜁니다. ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' )이(가) ( ''=='true' or ''=='true' )(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "_CheckForCompileOutputs" 대상("CopyFilesToOutputDirectory" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_CheckForCompileOutputs" 대상을 빌드했습니다.
+       조건이 잘못되어 "_SGenCheckForOutputs" 대상을 건너뜁니다. ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto'))이(가) ('Off' == 'On' or (''!='' and 'Off' == 'Auto'))(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "CopyFilesToOutputDirectory" 대상("PrepareForRun" 대상이 종속됨):
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')이(가) ('true' == 'true' and 'true' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "CopyRefAssembly" 작업을 건너뜁니다. ('$(ProduceReferenceAssembly)' == 'true' and '$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true')이(가) ('false' == 'true' and 'true' == 'true' and 'true' != 'true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true')이(가) ('true' == 'true' and 'true'!='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('@(AddModules)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('$(_SGenDllCreated)'=='true')이(가) ('false'=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true')이(가) ('false'=='true' and '' != 'true' and 'true'=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('$(_DocumentationFileProduced)'=='true')이(가) ('false'=='true')(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' )이(가) ('' != '' or '' != '' or '' != '' or '' != '' )(으)로 확인되었습니다.
+       조건이 잘못되어 "Copy" 작업을 건너뜁니다. ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '')이(가) ('' != 'true' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '')이(가) ('' != 'true' and '' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "CopyFilesToOutputDirectory" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "PrepareForRun" 대상("_BuildLinkAction" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "PrepareForRun" 대상을 빌드했습니다.
+       조건이 잘못되어 "CustomBuildStep" 대상을 건너뜁니다. ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='')이(가) ('' != '' and ''=='')(으)로 확인되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" 파일에 있는 "PostBuildEvent" 대상("_BuildLinkAction" 대상이 종속됨):
+       조건이 잘못되어 "Message" 작업을 건너뜁니다. ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '')이(가) ('' != '' and '' != '')(으)로 확인되었습니다.
+       조건이 잘못되어 "Exec" 작업을 건너뜁니다. ('%(PostBuildEvent.Command)' != '')이(가) ('' != '')(으)로 확인되었습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "PostBuildEvent" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "_BuildLinkAction" 대상("BuildLink" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "_BuildLinkAction" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "BuildLink" 대상("Build" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "BuildLink" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "AfterBuild" 대상("Build" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterBuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" 파일에 있는 "FinalizeBuildStatus" 대상("Build" 대상이 종속됨):
+       "Delete" 작업
+         "Debug\VS2017_64.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+       "Delete" 작업을 실행했습니다.
+       "Touch" 작업
+         "Debug\VS2017_64.tlog\VS2017_64.lastbuildstate"에 연결(touching)하고 있습니다.
+       "Touch" 작업을 실행했습니다.
+     1>"VS2017_64.vcxproj" 프로젝트에 "FinalizeBuildStatus" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "Build" 대상("Rebuild" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "Build" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" 파일에 있는 "AfterRebuild" 대상("Rebuild" 대상이 종속됨):
+     1>"VS2017_64.vcxproj" 프로젝트에 "AfterRebuild" 대상을 빌드했습니다.
+       "_CheckForInvalidConfigurationAndPlatform" 대상을 건너뜁니다. 이전에 빌드되었습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트의 "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" 파일에 있는 "Rebuild" 대상(진입점):
+     1>"VS2017_64.vcxproj" 프로젝트에 "Rebuild" 대상을 빌드했습니다.
+     1>"C:\Users\jhka\source\repos\VS2017_64\VS2017_64\VS2017_64.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+    경고 0개
+    오류 0개
+
+경과 시간: 00:00:01.38

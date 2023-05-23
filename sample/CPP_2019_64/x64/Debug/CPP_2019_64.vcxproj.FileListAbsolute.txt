@@ -1,0 +1,4 @@
+C:\Users\jhka\source\repos\CPP_2019_64\x64\Debug\CPP_2019_64.exe
+C:\Users\jhka\source\repos\CPP_2019_64\x64\Debug\CPP_2019_64.pdb
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\CPP_2019_64\x64\Debug\CPP_2019_64.exe
+C:\Users\jhka\Desktop\COVERSE_Automation\sample\CPP_2019_64\x64\Debug\CPP_2019_64.pdb

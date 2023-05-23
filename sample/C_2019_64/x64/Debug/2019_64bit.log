@@ -1,0 +1,42 @@
+﻿빌드 시작: 2021-01-11 오후 2:57:10
+로깅의 세부 정보 표시가 Normal(으)로 설정되었습니다.     1>2 노드의 "C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\2019_64bit.vcxproj" 프로젝트(Rebuild 대상)입니다.
+     1>_PrepareForClean:
+         "x64\Debug\2019_64bit.tlog\2019_64bit.lastbuildstate" 파일을 삭제하고 있습니다.
+       CoreClean:
+         "C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.exe" 파일을 삭제하고 있습니다.
+         "C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.pdb" 파일을 삭제하고 있습니다.
+       InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\2019_64bit.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+       ClCompile:
+         C:\QualityScroll-Cover-SE\wrapper\vs2019_64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl- /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TC /FC /errorReport:prompt checkBit.c
+         checkBit.c
+         [COVER] Creating translation hash...
+         [COVER] Analyzing source files...
+         [COVER] Compiling probed source files...
+         1e43eb94-1f37-4a05-898e-c22ce995c38d.c
+     1>C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(11,9): warning C4477: 'printf' : 서식 문자열 '%2d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+       C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(11,9): message : 서식 문자열에서 '%zd'을(를) 사용하는 것이 좋습니다.
+     1>C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(35,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(36,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+       Link:
+         C:\QualityScroll-Cover-SE\wrapper\vs2019_64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.lib" /MACHINE:X64 x64\Debug\checkBit.obj
+         cvgc_E9191D95.cpp
+         libcstm_E9191D95.c
+         2019_64bit.vcxproj -> C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.exe
+       FinalizeBuildStatus:
+         "x64\Debug\2019_64bit.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\2019_64bit.tlog\2019_64bit.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\2019_64bit.vcxproj" 프로젝트를 빌드했습니다(Rebuild 대상).
+
+빌드했습니다.
+
+       "C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\2019_64bit.vcxproj"(Rebuild 대상)(1) ->
+       (ClCompile 대상) -> 
+         C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(11,9): warning C4477: 'printf' : 서식 문자열 '%2d'에 'int' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 'size_t'입니다.
+         C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(35,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\checkBit.c(36,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+
+    경고 3개
+    오류 0개
+
+경과 시간: 00:00:14.85
