@@ -13,6 +13,7 @@ link* Q_make()// 새로운 Q를 생성한다. 원형큐로 만들어서 <-tail(큐)  ->head(head)
 	tail->prev=head;
 	head->check=0;
 	tail->check=0;
+	
 
 	
 	return tail;
@@ -67,6 +68,7 @@ link* Q_make_findS(link *head,int num)// 스텍으로 번지를 찾는다. ->
 	link *node;
 
 	for(node=head->next;num>0;num--)
+
 	{	
 		
 		if(node->next->check==0)
