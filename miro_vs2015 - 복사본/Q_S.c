@@ -4,6 +4,9 @@
 int main()  
 {
 
+
+
+
 	char miro_map[my][mx]={				// 미로의 맵을 만든다.
 		{wall,way,wall,'s',wall,wall,wall,wall,wall,wall,way,wall,wall,wall,wall,wall},
 		{wall,way,wall,way,way,way,way,way,wall,wall,wall,way,way,wall,wall,wall},
