@@ -13,6 +13,19 @@
     "eventGroup": []
   },
   {
+    "startLine": 221,
+    "startCol": 26,
+    "endLine": 221,
+    "endCol": 97,
+    "severity": 2,
+    "suppressionHash": 4996097011021914685,
+    "ruleSet": "C# Code Style Rules",
+    "rule": "IDE0029",
+    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Game.cs",
+    "message": "Null check can be simplified",
+    "eventGroup": []
+  },
+  {
     "startLine": 71,
     "startCol": 23,
     "endLine": 71,
@@ -117,45 +130,6 @@
     "eventGroup": []
   },
   {
-    "startLine": 221,
-    "startCol": 26,
-    "endLine": 221,
-    "endCol": 97,
-    "severity": 2,
-    "suppressionHash": 4996097011021914685,
-    "ruleSet": "C# Code Style Rules",
-    "rule": "IDE0029",
-    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Game.cs",
-    "message": "Null check can be simplified",
-    "eventGroup": []
-  },
-  {
-    "startLine": 202,
-    "startCol": 26,
-    "endLine": 202,
-    "endCol": 29,
-    "severity": 2,
-    "suppressionHash": 11549644245931118760,
-    "ruleSet": "C# Code Style Rules",
-    "rule": "IDE0017",
-    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Board.cs",
-    "message": "Object initialization can be simplified",
-    "eventGroup": []
-  },
-  {
-    "startLine": 203,
-    "startCol": 13,
-    "endLine": 203,
-    "endCol": 18,
-    "severity": 2,
-    "suppressionHash": 10668663859894226142,
-    "ruleSet": "C# Code Style Rules",
-    "rule": "IDE0017",
-    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Board.cs",
-    "message": "Object initialization can be simplified",
-    "eventGroup": []
-  },
-  {
     "startLine": 9,
     "startCol": 24,
     "endLine": 9,
@@ -195,6 +169,32 @@
     "eventGroup": []
   },
   {
+    "startLine": 202,
+    "startCol": 26,
+    "endLine": 202,
+    "endCol": 29,
+    "severity": 2,
+    "suppressionHash": 11549644245931118760,
+    "ruleSet": "C# Code Style Rules",
+    "rule": "IDE0017",
+    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Board.cs",
+    "message": "Object initialization can be simplified",
+    "eventGroup": []
+  },
+  {
+    "startLine": 203,
+    "startCol": 13,
+    "endLine": 203,
+    "endCol": 18,
+    "severity": 2,
+    "suppressionHash": 10668663859894226142,
+    "ruleSet": "C# Code Style Rules",
+    "rule": "IDE0017",
+    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Board.cs",
+    "message": "Object initialization can be simplified",
+    "eventGroup": []
+  },
+  {
     "startLine": 24,
     "startCol": 23,
     "endLine": 24,
@@ -221,19 +221,6 @@
     "eventGroup": []
   },
   {
-    "startLine": 110,
-    "startCol": 22,
-    "endLine": 110,
-    "endCol": 31,
-    "severity": 2,
-    "suppressionHash": 12315654291499126869,
-    "ruleSet": "C# Code Quality Rules",
-    "rule": "CA1822",
-    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
-    "message": "Member 'DrawArray' does not access instance data and can be marked as static",
-    "eventGroup": []
-  },
-  {
     "startLine": 86,
     "startCol": 21,
     "endLine": 86,
@@ -244,6 +231,19 @@
     "rule": "CA1822",
     "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
     "message": "Member 'ShowGameOver' does not access instance data and can be marked as static",
+    "eventGroup": []
+  },
+  {
+    "startLine": 110,
+    "startCol": 22,
+    "endLine": 110,
+    "endCol": 31,
+    "severity": 2,
+    "suppressionHash": 12315654291499126869,
+    "ruleSet": "C# Code Quality Rules",
+    "rule": "CA1822",
+    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
+    "message": "Member 'DrawArray' does not access instance data and can be marked as static",
     "eventGroup": []
   },
   {
