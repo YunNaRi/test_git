@@ -13,19 +13,6 @@
     "eventGroup": []
   },
   {
-    "startLine": 221,
-    "startCol": 26,
-    "endLine": 221,
-    "endCol": 97,
-    "severity": 2,
-    "suppressionHash": 4996097011021914685,
-    "ruleSet": "C# Code Style Rules",
-    "rule": "IDE0029",
-    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Game.cs",
-    "message": "Null check can be simplified",
-    "eventGroup": []
-  },
-  {
     "startLine": 71,
     "startCol": 23,
     "endLine": 71,
@@ -36,6 +23,19 @@
     "rule": "IDE0028",
     "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\PieceFactory.cs",
     "message": "Collection initialization can be simplified",
+    "eventGroup": []
+  },
+  {
+    "startLine": 221,
+    "startCol": 26,
+    "endLine": 221,
+    "endCol": 97,
+    "severity": 2,
+    "suppressionHash": 4996097011021914685,
+    "ruleSet": "C# Code Style Rules",
+    "rule": "IDE0029",
+    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Game.cs",
+    "message": "Null check can be simplified",
     "eventGroup": []
   },
   {
@@ -286,19 +286,6 @@
     "eventGroup": []
   },
   {
-    "startLine": 23,
-    "startCol": 19,
-    "endLine": 23,
-    "endCol": 24,
-    "severity": 2,
-    "suppressionHash": 10948363445978043493,
-    "ruleSet": "C# Code Style Rules",
-    "rule": "IDE0059",
-    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs",
-    "message": "Unnecessary assignment of a value to 'board'",
-    "eventGroup": []
-  },
-  {
     "startLine": 103,
     "startCol": 17,
     "endLine": 103,
@@ -309,6 +296,19 @@
     "rule": "IDE0059",
     "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs",
     "message": "Unnecessary assignment of a value to 'actual'",
+    "eventGroup": []
+  },
+  {
+    "startLine": 216,
+    "startCol": 17,
+    "endLine": 216,
+    "endCol": 28,
+    "severity": 2,
+    "suppressionHash": 10726162968419347069,
+    "ruleSet": "C# Code Style Rules",
+    "rule": "IDE0059",
+    "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs",
+    "message": "Unnecessary assignment of a value to 'try_get_val'",
     "eventGroup": []
   },
   {
@@ -325,16 +325,16 @@
     "eventGroup": []
   },
   {
-    "startLine": 216,
-    "startCol": 17,
-    "endLine": 216,
-    "endCol": 28,
+    "startLine": 23,
+    "startCol": 19,
+    "endLine": 23,
+    "endCol": 24,
     "severity": 2,
-    "suppressionHash": 10726162968419347069,
+    "suppressionHash": 10948363445978043493,
     "ruleSet": "C# Code Style Rules",
     "rule": "IDE0059",
     "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs",
-    "message": "Unnecessary assignment of a value to 'try_get_val'",
+    "message": "Unnecessary assignment of a value to 'board'",
     "eventGroup": []
   }
 ]
