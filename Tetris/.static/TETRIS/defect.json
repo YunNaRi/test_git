@@ -1,0 +1,41 @@
+[
+  {
+    "startLine": 21,
+    "startCol": 23,
+    "endLine": 21,
+    "endCol": 50,
+    "severity": 2,
+    "suppressionHash": 4809405920461101701,
+    "ruleSet": "C# Code Quality Rules",
+    "rule": "CA2208",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Piece.cs",
+    "message": "Call the ArgumentNullException constructor that contains a message and/or paramName parameter",
+    "eventGroup": []
+  },
+  {
+    "startLine": 110,
+    "startCol": 22,
+    "endLine": 110,
+    "endCol": 31,
+    "severity": 2,
+    "suppressionHash": 8227847148951684918,
+    "ruleSet": "C# Code Quality Rules",
+    "rule": "CA1822",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
+    "message": "Member 'DrawArray' does not access instance data and can be marked as static",
+    "eventGroup": []
+  },
+  {
+    "startLine": 86,
+    "startCol": 21,
+    "endLine": 86,
+    "endCol": 33,
+    "severity": 2,
+    "suppressionHash": 17778134865359404946,
+    "ruleSet": "C# Code Quality Rules",
+    "rule": "CA1822",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
+    "message": "Member 'ShowGameOver' does not access instance data and can be marked as static",
+    "eventGroup": []
+  }
+]

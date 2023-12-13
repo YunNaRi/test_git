@@ -1,0 +1,116 @@
+[
+  {
+    "file": "0_Board.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Board.cs",
+    "hash": "eae8ef22c8d4789d39660dbafd61663f",
+    "crc32": "5c9ac4f6"
+  },
+  {
+    "file": "1_Game.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Game.cs",
+    "hash": "a5ad44ddadb87ccf4bfe0bd7906e2904",
+    "crc32": "4a92b737"
+  },
+  {
+    "file": "2_IMode.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Interfaces\\IMode.cs",
+    "hash": "cabada3c28dcf3e6f817ba6246958ef6",
+    "crc32": "7bae4f41"
+  },
+  {
+    "file": "3_IMovable.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Interfaces\\IMovable.cs",
+    "hash": "cb646c54bc99790cba2e987f5b01023d",
+    "crc32": "4ca76481"
+  },
+  {
+    "file": "4_Piece.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Piece.cs",
+    "hash": "79a5a59522d15db42a44cded1164660b",
+    "crc32": "710227d5"
+  },
+  {
+    "file": "5_PieceFactory.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\PieceFactory.cs",
+    "hash": "7184c15f6892b1339175bbeae4c7a8b4",
+    "crc32": "7a2402a9"
+  },
+  {
+    "file": "6_AssemblyInfo.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine\\Properties\\AssemblyInfo.cs",
+    "hash": "61e3c3abca9ba3e7b95135d211613552",
+    "crc32": "87c3233b"
+  },
+  {
+    "file": "7_ConsoleDrawing.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
+    "hash": "8310b7cff0729421c97ce64f0b68d394",
+    "crc32": "7c8da11f"
+  },
+  {
+    "file": "8_IDrawing.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.ConsoleUI\\Interfaces\\IDrawing.cs",
+    "hash": "d2a2fcc48bb0a4cddb444b24d5becc9f",
+    "crc32": "8d16289b"
+  },
+  {
+    "file": "9_Program.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.ConsoleUI\\Program.cs",
+    "hash": "b38bbedd8b9f7272c6dae80f14569b69",
+    "crc32": "c6de63d5"
+  },
+  {
+    "file": "10_AssemblyInfo.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.ConsoleUI\\Properties\\AssemblyInfo.cs",
+    "hash": "80ab5cb0b060afcae13a10ad630513ae",
+    "crc32": "a3c06d67"
+  },
+  {
+    "file": "11_Form1.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.DesktopUI\\Form1.cs",
+    "hash": "3b5392c0457f910f4773e801265c27e1",
+    "crc32": "b0c547cb"
+  },
+  {
+    "file": "12_Program.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.DesktopUI\\Program.cs",
+    "hash": "edad44e4e455fa4f1cc230434e8eadde",
+    "crc32": "6a0beb2a"
+  },
+  {
+    "file": "13_AssemblyInfo.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs",
+    "hash": "facfafe0d1b6dbbcda482d6879a3f6c4",
+    "crc32": "9252d0f5"
+  },
+  {
+    "file": "14_PieceFactoryTest.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine.Test\\PieceFactoryTest.cs",
+    "hash": "60fd1478d35fd090b888b7371211848d",
+    "crc32": "a49c2801"
+  },
+  {
+    "file": "15_PieceTest.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs",
+    "hash": "52714724ca22433bfd1a9f55f957b78e",
+    "crc32": "3f1a826e"
+  },
+  {
+    "file": "16_AssemblyInfo.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine.Test\\Properties\\AssemblyInfo.cs",
+    "hash": "32ee8b0382b926bb06fd9a1fce946d41",
+    "crc32": "0f7da95c"
+  },
+  {
+    "file": "17_GameTest.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine.Test\\GameTest.cs",
+    "hash": "8dbbf9d9b3986ef23abc6bb2e935c334",
+    "crc32": "de38d585"
+  },
+  {
+    "file": "18_BoardTest.cs",
+    "path": "D:\\VPES_GIT\\git\\VPES_Autumation\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs",
+    "hash": "028cedba75a254b45e2ed809a98e5dbe",
+    "crc32": "c955ee18"
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "modules": [
+    {
+      "name": "Tetris.DesktopUI",
+      "output": "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\.static\\CS1\\Compile\\Tetris.DesktopUI\\net45\\Tetris.DesktopUI.exe",
+      "path": "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI",
+      "sources": [
+        "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\Form1.cs",
+        "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\Form1.Designer.cs",
+        "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\Program.cs",
+        "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs",
+        "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\Properties\\Resources.Designer.cs",
+        "C:\\Users\\ysgo\\Desktop\\STATIC-C#\\Tetris\\Tetris.DesktopUI\\Properties\\Settings.Designer.cs"
+      ],
+      "success": true,
+      "toolVersion": "15.0"
+    }
+  ],
+  "visualStudios": [
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 10.0",
+      "version": "10.0"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0",
+      "version": "14.0"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional",
+      "version": "15.9"
+    },
+    {
+      "path": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional",
+      "version": "16.7"
+    }
+  ]
+}
