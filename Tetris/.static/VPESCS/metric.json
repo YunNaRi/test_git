@@ -14,7 +14,7 @@
       },
       "files": [
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Board.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Board.cs",
           "sourceFileBodyHash": "9b1b07555427e1a6290c6d4f53c8b692",
           "metrics": {
             "20020": 161.0,
@@ -25,7 +25,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Game.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Game.cs",
           "sourceFileBodyHash": "daaf3ed7ee887af274533cb1b2fe4704",
           "metrics": {
             "20020": 228.0,
@@ -36,7 +36,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Interfaces\\IMode.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Interfaces\\IMode.cs",
           "sourceFileBodyHash": "085e3ddafd6bb5ab3da352bd949b7020",
           "metrics": {
             "20020": 13.0,
@@ -47,7 +47,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Interfaces\\IMovable.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Interfaces\\IMovable.cs",
           "sourceFileBodyHash": "b50e82737ad6b286ba4e93fec7eaa3ac",
           "metrics": {
             "20020": 12.0,
@@ -58,7 +58,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Piece.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Piece.cs",
           "sourceFileBodyHash": "07606b3b268cc125847e191330868fc1",
           "metrics": {
             "20020": 92.0,
@@ -69,7 +69,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\PieceFactory.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\PieceFactory.cs",
           "sourceFileBodyHash": "0c9f0e5b3f32cbf12c0e6dfaf8637441",
           "metrics": {
             "20020": 44.0,
@@ -80,7 +80,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Properties\\AssemblyInfo.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Properties\\AssemblyInfo.cs",
           "sourceFileBodyHash": "056c73bcfc522e93e98e13a5adbc51eb",
           "metrics": {
             "20020": 15.0,
@@ -92,7 +92,91 @@
         }
       ],
       "functions": {
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Board.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Board.cs": [
+          {
+            "name": "Board.Clone ( )",
+            "signature": "object Tetris.GameEngine.Board.Clone()",
+            "beginLine": 200,
+            "endLine": 205,
+            "metrics": {
+              "40010": 3.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 2.0,
+              "40080": 1.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "Board.RemoveLine ( int )",
+            "signature": "void Tetris.GameEngine.Board.RemoveLine(int)",
+            "beginLine": 163,
+            "endLine": 178,
+            "metrics": {
+              "40010": 5.0,
+              "40020": 4.0,
+              "40040": 2.0,
+              "40070": 1.0,
+              "40080": 0.0,
+              "40100": 1.0
+            }
+          },
+          {
+            "name": "Board.FixPiece ( Tetris.GameEngine.Piece, int, int )",
+            "signature": "void Tetris.GameEngine.Board.FixPiece(Tetris.GameEngine.Piece, int, int)",
+            "beginLine": 38,
+            "endLine": 55,
+            "metrics": {
+              "40010": 5.0,
+              "40020": 5.0,
+              "40040": 4.0,
+              "40070": 19.0,
+              "40080": 0.0,
+              "40100": 3.0
+            }
+          },
+          {
+            "name": "Board.IsTopReached ( )",
+            "signature": "bool Tetris.GameEngine.Board.IsTopReached()",
+            "beginLine": 99,
+            "endLine": 109,
+            "metrics": {
+              "40010": 4.0,
+              "40020": 3.0,
+              "40040": 2.0,
+              "40070": 4.0,
+              "40080": 1.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "Board.CheckLines ( )",
+            "signature": "int Tetris.GameEngine.Board.CheckLines()",
+            "beginLine": 57,
+            "endLine": 73,
+            "metrics": {
+              "40010": 8.0,
+              "40020": 4.0,
+              "40040": 2.0,
+              "40070": 3.0,
+              "40080": 2.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "Board.ToArray ( )",
+            "signature": "int[*,*] Tetris.GameEngine.Board.ToArray()",
+            "beginLine": 111,
+            "endLine": 114,
+            "metrics": {
+              "40010": 1.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 7.0,
+              "40080": 0.0,
+              "40100": 0.0
+            }
+          },
           {
             "name": "Board.IsFreePos ( int, int )",
             "signature": "bool Tetris.GameEngine.Board.IsFreePos(int, int)",
@@ -122,48 +206,6 @@
             }
           },
           {
-            "name": "Board.RemoveLine ( int )",
-            "signature": "void Tetris.GameEngine.Board.RemoveLine(int)",
-            "beginLine": 163,
-            "endLine": 178,
-            "metrics": {
-              "40010": 5.0,
-              "40020": 4.0,
-              "40040": 2.0,
-              "40070": 1.0,
-              "40080": 0.0,
-              "40100": 1.0
-            }
-          },
-          {
-            "name": "Board.CheckLines ( )",
-            "signature": "int Tetris.GameEngine.Board.CheckLines()",
-            "beginLine": 57,
-            "endLine": 73,
-            "metrics": {
-              "40010": 8.0,
-              "40020": 4.0,
-              "40040": 2.0,
-              "40070": 3.0,
-              "40080": 2.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "Board.Clone ( )",
-            "signature": "object Tetris.GameEngine.Board.Clone()",
-            "beginLine": 200,
-            "endLine": 205,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 2.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
             "name": "Board..ctor ( int, int )",
             "signature": "void Tetris.GameEngine.Board.Board(int, int)",
             "beginLine": 15,
@@ -175,34 +217,6 @@
               "40070": 0.0,
               "40080": 1.0,
               "40100": 2.0
-            }
-          },
-          {
-            "name": "Board.IsTopReached ( )",
-            "signature": "bool Tetris.GameEngine.Board.IsTopReached()",
-            "beginLine": 99,
-            "endLine": 109,
-            "metrics": {
-              "40010": 4.0,
-              "40020": 3.0,
-              "40040": 2.0,
-              "40070": 4.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "Board.ToArray ( )",
-            "signature": "int[*,*] Tetris.GameEngine.Board.ToArray()",
-            "beginLine": 111,
-            "endLine": 114,
-            "metrics": {
-              "40010": 1.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 7.0,
-              "40080": 0.0,
-              "40100": 0.0
             }
           },
           {
@@ -218,34 +232,34 @@
               "40080": 3.0,
               "40100": 3.0
             }
-          },
-          {
-            "name": "Board.FixPiece ( Tetris.GameEngine.Piece, int, int )",
-            "signature": "void Tetris.GameEngine.Board.FixPiece(Tetris.GameEngine.Piece, int, int)",
-            "beginLine": 38,
-            "endLine": 55,
-            "metrics": {
-              "40010": 5.0,
-              "40020": 5.0,
-              "40040": 4.0,
-              "40070": 19.0,
-              "40080": 0.0,
-              "40100": 3.0
-            }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Game.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Game.cs": [
           {
-            "name": "Game.Step ( )",
-            "signature": "void Tetris.GameEngine.Game.Step()",
-            "beginLine": 177,
-            "endLine": 216,
+            "name": "Game.MoveRight ( )",
+            "signature": "void Tetris.GameEngine.Game.MoveRight()",
+            "beginLine": 231,
+            "endLine": 237,
             "metrics": {
-              "40010": 18.0,
-              "40020": 10.0,
-              "40040": 3.0,
+              "40010": 2.0,
+              "40020": 2.0,
+              "40040": 1.0,
               "40070": 2.0,
-              "40080": 6.0,
+              "40080": 1.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "Game.GameOver ( )",
+            "signature": "void Tetris.GameEngine.Game.GameOver()",
+            "beginLine": 83,
+            "endLine": 90,
+            "metrics": {
+              "40010": 3.0,
+              "40020": 2.0,
+              "40040": 1.0,
+              "40070": 6.0,
+              "40080": 0.0,
               "40100": 0.0
             }
           },
@@ -292,34 +306,6 @@
             }
           },
           {
-            "name": "Game.SmashDown ( )",
-            "signature": "void Tetris.GameEngine.Game.SmashDown()",
-            "beginLine": 252,
-            "endLine": 259,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 2.0,
-              "40040": 1.0,
-              "40070": 3.0,
-              "40080": 3.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "Game.GameOver ( )",
-            "signature": "void Tetris.GameEngine.Game.GameOver()",
-            "beginLine": 83,
-            "endLine": 90,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 2.0,
-              "40040": 1.0,
-              "40070": 6.0,
-              "40080": 0.0,
-              "40100": 0.0
-            }
-          },
-          {
             "name": "Game.MoveDown ( )",
             "signature": "void Tetris.GameEngine.Game.MoveDown()",
             "beginLine": 247,
@@ -329,20 +315,6 @@
               "40020": 1.0,
               "40040": 0.0,
               "40070": 6.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "Game.MoveRight ( )",
-            "signature": "void Tetris.GameEngine.Game.MoveRight()",
-            "beginLine": 231,
-            "endLine": 237,
-            "metrics": {
-              "40010": 2.0,
-              "40020": 2.0,
-              "40040": 1.0,
-              "40070": 2.0,
               "40080": 1.0,
               "40100": 0.0
             }
@@ -362,6 +334,34 @@
             }
           },
           {
+            "name": "Game..ctor ( )",
+            "signature": "void Tetris.GameEngine.Game.Game()",
+            "beginLine": 38,
+            "endLine": 51,
+            "metrics": {
+              "40010": 10.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 0.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "Game.SmashDown ( )",
+            "signature": "void Tetris.GameEngine.Game.SmashDown()",
+            "beginLine": 252,
+            "endLine": 259,
+            "metrics": {
+              "40010": 3.0,
+              "40020": 2.0,
+              "40040": 1.0,
+              "40070": 3.0,
+              "40080": 3.0,
+              "40100": 0.0
+            }
+          },
+          {
             "name": "Game.Rotate ( )",
             "signature": "void Tetris.GameEngine.Game.Rotate()",
             "beginLine": 261,
@@ -376,22 +376,22 @@
             }
           },
           {
-            "name": "Game..ctor ( )",
-            "signature": "void Tetris.GameEngine.Game.Game()",
-            "beginLine": 38,
-            "endLine": 51,
+            "name": "Game.Step ( )",
+            "signature": "void Tetris.GameEngine.Game.Step()",
+            "beginLine": 177,
+            "endLine": 216,
             "metrics": {
-              "40010": 10.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 0.0,
+              "40010": 18.0,
+              "40020": 10.0,
+              "40040": 3.0,
+              "40070": 2.0,
+              "40080": 6.0,
               "40100": 0.0
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Interfaces\\IMode.cs": [],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Interfaces\\IMovable.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Interfaces\\IMode.cs": [],
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Interfaces\\IMovable.cs": [
           {
             "name": "Interface IMovable.Rotate ( )",
             "signature": "Interface void Tetris.GameEngine.Interfaces.IMovable.Rotate()",
@@ -421,10 +421,10 @@
             }
           },
           {
-            "name": "Interface IMovable.MoveLeft ( )",
-            "signature": "Interface void Tetris.GameEngine.Interfaces.IMovable.MoveLeft()",
-            "beginLine": 8,
-            "endLine": 8,
+            "name": "Interface IMovable.MoveDown ( )",
+            "signature": "Interface void Tetris.GameEngine.Interfaces.IMovable.MoveDown()",
+            "beginLine": 9,
+            "endLine": 9,
             "metrics": {
               "40010": 0.0,
               "40020": 0.0,
@@ -435,10 +435,10 @@
             }
           },
           {
-            "name": "Interface IMovable.MoveDown ( )",
-            "signature": "Interface void Tetris.GameEngine.Interfaces.IMovable.MoveDown()",
-            "beginLine": 9,
-            "endLine": 9,
+            "name": "Interface IMovable.MoveLeft ( )",
+            "signature": "Interface void Tetris.GameEngine.Interfaces.IMovable.MoveLeft()",
+            "beginLine": 8,
+            "endLine": 8,
             "metrics": {
               "40010": 0.0,
               "40020": 0.0,
@@ -463,7 +463,21 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Piece.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Piece.cs": [
+          {
+            "name": "Piece.ToArray ( )",
+            "signature": "int[*,*] Tetris.GameEngine.Piece.ToArray()",
+            "beginLine": 99,
+            "endLine": 102,
+            "metrics": {
+              "40010": 1.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 11.0,
+              "40080": 0.0,
+              "40100": 0.0
+            }
+          },
           {
             "name": "Piece.MakeItShadow ( )",
             "signature": "void Tetris.GameEngine.Piece.MakeItShadow()",
@@ -479,14 +493,14 @@
             }
           },
           {
-            "name": "Piece.RotateRight ( )",
-            "signature": "Tetris.GameEngine.Piece Tetris.GameEngine.Piece.RotateRight()",
-            "beginLine": 72,
-            "endLine": 83,
+            "name": "Piece.Clone ( )",
+            "signature": "object Tetris.GameEngine.Piece.Clone()",
+            "beginLine": 124,
+            "endLine": 127,
             "metrics": {
-              "40010": 5.0,
-              "40020": 3.0,
-              "40040": 2.0,
+              "40010": 1.0,
+              "40020": 1.0,
+              "40040": 0.0,
               "40070": 3.0,
               "40080": 0.0,
               "40100": 0.0
@@ -507,49 +521,21 @@
             }
           },
           {
-            "name": "Piece.ToArray ( )",
-            "signature": "int[*,*] Tetris.GameEngine.Piece.ToArray()",
-            "beginLine": 99,
-            "endLine": 102,
+            "name": "Piece.RotateRight ( )",
+            "signature": "Tetris.GameEngine.Piece Tetris.GameEngine.Piece.RotateRight()",
+            "beginLine": 72,
+            "endLine": 83,
             "metrics": {
-              "40010": 1.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 11.0,
-              "40080": 0.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "Piece.Clone ( )",
-            "signature": "object Tetris.GameEngine.Piece.Clone()",
-            "beginLine": 124,
-            "endLine": 127,
-            "metrics": {
-              "40010": 1.0,
-              "40020": 1.0,
-              "40040": 0.0,
+              "40010": 5.0,
+              "40020": 3.0,
+              "40040": 2.0,
               "40070": 3.0,
               "40080": 0.0,
               "40100": 0.0
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\PieceFactory.cs": [
-          {
-            "name": "PieceFactory.GetPiecebyId ( int )",
-            "signature": "Tetris.GameEngine.Piece Tetris.GameEngine.PieceFactory.GetPiecebyId(int)",
-            "beginLine": 36,
-            "endLine": 43,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 2.0,
-              "40040": 1.0,
-              "40070": 15.0,
-              "40080": 0.0,
-              "40100": 1.0
-            }
-          },
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\PieceFactory.cs": [
           {
             "name": "PieceFactory.GetRandomPiece ( System.Random )",
             "signature": "Tetris.GameEngine.Piece Tetris.GameEngine.PieceFactory.GetRandomPiece(System.Random)",
@@ -565,17 +551,17 @@
             }
           },
           {
-            "name": "PieceFactory..cctor ( )",
-            "signature": "void Tetris.GameEngine.PieceFactory.PieceFactory()",
-            "beginLine": 22,
-            "endLine": 25,
+            "name": "PieceFactory.GetPiecebyId ( int )",
+            "signature": "Tetris.GameEngine.Piece Tetris.GameEngine.PieceFactory.GetPiecebyId(int)",
+            "beginLine": 36,
+            "endLine": 43,
             "metrics": {
-              "40010": 1.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 1.0,
-              "40100": 0.0
+              "40010": 3.0,
+              "40020": 2.0,
+              "40040": 1.0,
+              "40070": 15.0,
+              "40080": 0.0,
+              "40100": 1.0
             }
           },
           {
@@ -591,9 +577,23 @@
               "40080": 1.0,
               "40100": 0.0
             }
+          },
+          {
+            "name": "PieceFactory..cctor ( )",
+            "signature": "void Tetris.GameEngine.PieceFactory.PieceFactory()",
+            "beginLine": 22,
+            "endLine": 25,
+            "metrics": {
+              "40010": 1.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 1.0,
+              "40100": 0.0
+            }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine\\Properties\\AssemblyInfo.cs": []
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine\\Properties\\AssemblyInfo.cs": []
       }
     },
     {
@@ -604,7 +604,7 @@
       },
       "files": [
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs",
           "sourceFileBodyHash": "2a02dfdcc026ae81f7deec827c8d5ddc",
           "metrics": {
             "20020": 207.0,
@@ -615,7 +615,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\GameTest.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\GameTest.cs",
           "sourceFileBodyHash": "85c65e3d667b0949dc5081754d98de88",
           "metrics": {
             "20020": 178.0,
@@ -626,7 +626,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\PieceFactoryTest.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\PieceFactoryTest.cs",
           "sourceFileBodyHash": "e56401ce38e9201862c784114fb53f1e",
           "metrics": {
             "20020": 46.0,
@@ -637,7 +637,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs",
           "sourceFileBodyHash": "272aa20f8bb7b5853454c9d347bcd0d1",
           "metrics": {
             "20020": 103.0,
@@ -648,7 +648,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\Properties\\AssemblyInfo.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\Properties\\AssemblyInfo.cs",
           "sourceFileBodyHash": "35161d31a17ed5a6cdaee62769072a6c",
           "metrics": {
             "20020": 15.0,
@@ -660,28 +660,14 @@
         }
       ],
       "functions": {
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\BoardTest.cs": [
           {
-            "name": "BoardTest.TestFixShadowPiece ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestFixShadowPiece()",
-            "beginLine": 169,
-            "endLine": 180,
+            "name": "BoardTest.TestCheckLines ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCheckLines()",
+            "beginLine": 87,
+            "endLine": 100,
             "metrics": {
-              "40010": 5.0,
-              "40020": 2.0,
-              "40040": 1.0,
-              "40070": 0.0,
-              "40080": 2.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "BoardTest.TestCanPosAt_Wrong_Pos ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCanPosAt_Wrong_Pos()",
-            "beginLine": 110,
-            "endLine": 117,
-            "metrics": {
-              "40010": 4.0,
+              "40010": 10.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
@@ -704,16 +690,30 @@
             }
           },
           {
-            "name": "BoardTest.TestIsTopReached ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestIsTopReached()",
-            "beginLine": 135,
-            "endLine": 145,
+            "name": "BoardTest.TestGetItem_Wrong_Index_0 ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetItem_Wrong_Index_0()",
+            "beginLine": 203,
+            "endLine": 209,
             "metrics": {
-              "40010": 7.0,
+              "40010": 2.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
-              "40080": 4.0,
+              "40080": 0.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "BoardTest.TestCanPosAt_Init_Piece_Pos ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCanPosAt_Init_Piece_Pos()",
+            "beginLine": 119,
+            "endLine": 125,
+            "metrics": {
+              "40010": 3.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 3.0,
               "40100": 0.0
             }
           },
@@ -732,10 +732,10 @@
             }
           },
           {
-            "name": "BoardTest.TestIsTopReached_Not_Reached ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestIsTopReached_Not_Reached()",
-            "beginLine": 147,
-            "endLine": 157,
+            "name": "BoardTest.TestIsTopReached ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestIsTopReached()",
+            "beginLine": 135,
+            "endLine": 145,
             "metrics": {
               "40010": 7.0,
               "40020": 1.0,
@@ -788,44 +788,16 @@
             }
           },
           {
-            "name": "BoardTest.TestGetItem_Wrong_Index_1 ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetItem_Wrong_Index_1()",
-            "beginLine": 211,
-            "endLine": 217,
+            "name": "BoardTest.TestClone ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestClone()",
+            "beginLine": 219,
+            "endLine": 226,
             "metrics": {
-              "40010": 2.0,
+              "40010": 4.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
-              "40080": 0.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "BoardTest.TestGetHeightProp ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetHeightProp()",
-            "beginLine": 182,
-            "endLine": 187,
-            "metrics": {
-              "40010": 2.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "BoardTest.TestCanPosAt_Init_Piece_Pos ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCanPosAt_Init_Piece_Pos()",
-            "beginLine": 119,
-            "endLine": 125,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 3.0,
+              "40080": 4.0,
               "40100": 0.0
             }
           },
@@ -834,34 +806,6 @@
             "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetWidthtProp()",
             "beginLine": 189,
             "endLine": 194,
-            "metrics": {
-              "40010": 2.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "BoardTest.TestCanPosAt_Wrong_X_Pos ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCanPosAt_Wrong_X_Pos()",
-            "beginLine": 127,
-            "endLine": 133,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 3.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "BoardTest.TestGetItem ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetItem()",
-            "beginLine": 196,
-            "endLine": 201,
             "metrics": {
               "40010": 2.0,
               "40020": 1.0,
@@ -886,10 +830,24 @@
             }
           },
           {
-            "name": "BoardTest.TestClone ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestClone()",
-            "beginLine": 219,
-            "endLine": 226,
+            "name": "BoardTest.TestGetItem ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetItem()",
+            "beginLine": 196,
+            "endLine": 201,
+            "metrics": {
+              "40010": 2.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 1.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "BoardTest.TestCanPosAt_Wrong_Pos ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCanPosAt_Wrong_Pos()",
+            "beginLine": 110,
+            "endLine": 117,
             "metrics": {
               "40010": 4.0,
               "40020": 1.0,
@@ -900,10 +858,10 @@
             }
           },
           {
-            "name": "BoardTest.TestGetItem_Wrong_Index_0 ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetItem_Wrong_Index_0()",
-            "beginLine": 203,
-            "endLine": 209,
+            "name": "BoardTest.TestGetItem_Wrong_Index_1 ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetItem_Wrong_Index_1()",
+            "beginLine": 211,
+            "endLine": 217,
             "metrics": {
               "40010": 2.0,
               "40020": 1.0,
@@ -928,28 +886,40 @@
             }
           },
           {
-            "name": "BoardTest.TestCheckLines ( )",
-            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCheckLines()",
-            "beginLine": 87,
-            "endLine": 100,
+            "name": "BoardTest.TestGetHeightProp ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestGetHeightProp()",
+            "beginLine": 182,
+            "endLine": 187,
             "metrics": {
-              "40010": 10.0,
+              "40010": 2.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
-              "40080": 4.0,
+              "40080": 1.0,
               "40100": 0.0
             }
-          }
-        ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\GameTest.cs": [
+          },
           {
-            "name": "GameTest.TestLinesUpdate ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestLinesUpdate()",
-            "beginLine": 180,
-            "endLine": 187,
+            "name": "BoardTest.TestFixShadowPiece ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestFixShadowPiece()",
+            "beginLine": 169,
+            "endLine": 180,
             "metrics": {
-              "40010": 4.0,
+              "40010": 5.0,
+              "40020": 2.0,
+              "40040": 1.0,
+              "40070": 0.0,
+              "40080": 2.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "BoardTest.TestCanPosAt_Wrong_X_Pos ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestCanPosAt_Wrong_X_Pos()",
+            "beginLine": 127,
+            "endLine": 133,
+            "metrics": {
+              "40010": 3.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
@@ -958,16 +928,60 @@
             }
           },
           {
-            "name": "GameTest.TestPause ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestPause()",
-            "beginLine": 51,
-            "endLine": 60,
+            "name": "BoardTest.TestIsTopReached_Not_Reached ( )",
+            "signature": "void Tetris.GameEngine.Test.BoardTest.TestIsTopReached_Not_Reached()",
+            "beginLine": 147,
+            "endLine": 157,
             "metrics": {
-              "40010": 6.0,
+              "40010": 7.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 4.0,
+              "40100": 0.0
+            }
+          }
+        ],
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\GameTest.cs": [
+          {
+            "name": "GameTest.TestSmashDown ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestSmashDown()",
+            "beginLine": 160,
+            "endLine": 168,
+            "metrics": {
+              "40010": 5.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
               "40080": 3.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestGetScoreProp ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestGetScoreProp()",
+            "beginLine": 102,
+            "endLine": 108,
+            "metrics": {
+              "40010": 3.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 2.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestBoardSize ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestBoardSize()",
+            "beginLine": 71,
+            "endLine": 77,
+            "metrics": {
+              "40010": 3.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 1.0,
               "40100": 0.0
             }
           },
@@ -982,6 +996,34 @@
               "40040": 0.0,
               "40070": 0.0,
               "40080": 1.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestStart_Wrong_Status_0 ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestStart_Wrong_Status_0()",
+            "beginLine": 23,
+            "endLine": 31,
+            "metrics": {
+              "40010": 4.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 2.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestMoveRight ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestMoveRight()",
+            "beginLine": 149,
+            "endLine": 158,
+            "metrics": {
+              "40010": 6.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 4.0,
               "40100": 0.0
             }
           },
@@ -1028,90 +1070,6 @@
             }
           },
           {
-            "name": "GameTest.TestStart_Wrong_Status_0 ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestStart_Wrong_Status_0()",
-            "beginLine": 23,
-            "endLine": 31,
-            "metrics": {
-              "40010": 4.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 2.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "GameTest.TestMoveDown ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestMoveDown()",
-            "beginLine": 128,
-            "endLine": 136,
-            "metrics": {
-              "40010": 5.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 3.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "GameTest.TestBoardSize ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestBoardSize()",
-            "beginLine": 71,
-            "endLine": 77,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "GameTest.TestStart_Wrong_Status_1 ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestStart_Wrong_Status_1()",
-            "beginLine": 33,
-            "endLine": 41,
-            "metrics": {
-              "40010": 4.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 2.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "GameTest.TestGetScoreProp ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestGetScoreProp()",
-            "beginLine": 102,
-            "endLine": 108,
-            "metrics": {
-              "40010": 3.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 2.0,
-              "40100": 0.0
-            }
-          },
-          {
-            "name": "GameTest.TestUsualLifecycle ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestUsualLifecycle()",
-            "beginLine": 10,
-            "endLine": 21,
-            "metrics": {
-              "40010": 8.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 4.0,
-              "40100": 0.0
-            }
-          },
-          {
             "name": "GameTest.TestRotate ( )",
             "signature": "void Tetris.GameEngine.Test.GameTest.TestRotate()",
             "beginLine": 170,
@@ -1126,12 +1084,40 @@
             }
           },
           {
+            "name": "GameTest.TestNextPieceModeProp ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestNextPieceModeProp()",
+            "beginLine": 110,
+            "endLine": 117,
+            "metrics": {
+              "40010": 4.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 2.0,
+              "40100": 0.0
+            }
+          },
+          {
             "name": "GameTest.TestGetNextPieceProp ( )",
             "signature": "void Tetris.GameEngine.Test.GameTest.TestGetNextPieceProp()",
             "beginLine": 86,
             "endLine": 92,
             "metrics": {
               "40010": 3.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 2.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestStart_Wrong_Status_1 ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestStart_Wrong_Status_1()",
+            "beginLine": 33,
+            "endLine": 41,
+            "metrics": {
+              "40010": 4.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
@@ -1154,30 +1140,58 @@
             }
           },
           {
-            "name": "GameTest.TestNextPieceModeProp ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestNextPieceModeProp()",
-            "beginLine": 110,
-            "endLine": 117,
+            "name": "GameTest.TestUsualLifecycle ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestUsualLifecycle()",
+            "beginLine": 10,
+            "endLine": 21,
             "metrics": {
-              "40010": 4.0,
+              "40010": 8.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
-              "40080": 2.0,
+              "40080": 4.0,
               "40100": 0.0
             }
           },
           {
-            "name": "GameTest.TestMoveRight ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestMoveRight()",
-            "beginLine": 149,
-            "endLine": 158,
+            "name": "GameTest.TestMoveDown ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestMoveDown()",
+            "beginLine": 128,
+            "endLine": 136,
+            "metrics": {
+              "40010": 5.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 3.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestPause ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestPause()",
+            "beginLine": 51,
+            "endLine": 60,
             "metrics": {
               "40010": 6.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
-              "40080": 4.0,
+              "40080": 3.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "GameTest.TestLinesUpdate ( )",
+            "signature": "void Tetris.GameEngine.Test.GameTest.TestLinesUpdate()",
+            "beginLine": 180,
+            "endLine": 187,
+            "metrics": {
+              "40010": 4.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 3.0,
               "40100": 0.0
             }
           },
@@ -1196,20 +1210,6 @@
             }
           },
           {
-            "name": "GameTest.TestSmashDown ( )",
-            "signature": "void Tetris.GameEngine.Test.GameTest.TestSmashDown()",
-            "beginLine": 160,
-            "endLine": 168,
-            "metrics": {
-              "40010": 5.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 3.0,
-              "40100": 0.0
-            }
-          },
-          {
             "name": "GameTest.TestMoveDown_Top_Is_Reached ( )",
             "signature": "void Tetris.GameEngine.Test.GameTest.TestMoveDown_Top_Is_Reached()",
             "beginLine": 189,
@@ -1224,7 +1224,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\PieceFactoryTest.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\PieceFactoryTest.cs": [
           {
             "name": "PieceFactoryTest.TestGetCount ( )",
             "signature": "void Tetris.GameEngine.Test.PieceFactoryTest.TestGetCount()",
@@ -1296,7 +1296,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\PieceTest.cs": [
           {
             "name": "PieceTest.TestGetItem ( )",
             "signature": "void Tetris.GameEngine.Test.PieceTest.TestGetItem()",
@@ -1312,16 +1312,16 @@
             }
           },
           {
-            "name": "PieceTest.TestConstructor_Wrong_Parameter ( )",
-            "signature": "void Tetris.GameEngine.Test.PieceTest.TestConstructor_Wrong_Parameter()",
-            "beginLine": 19,
-            "endLine": 25,
+            "name": "PieceTest.TestHeight ( )",
+            "signature": "void Tetris.GameEngine.Test.PieceTest.TestHeight()",
+            "beginLine": 62,
+            "endLine": 69,
             "metrics": {
-              "40010": 2.0,
+              "40010": 4.0,
               "40020": 1.0,
               "40040": 0.0,
               "40070": 0.0,
-              "40080": 0.0,
+              "40080": 1.0,
               "40100": 0.0
             }
           },
@@ -1382,20 +1382,6 @@
             }
           },
           {
-            "name": "PieceTest.TestHeight ( )",
-            "signature": "void Tetris.GameEngine.Test.PieceTest.TestHeight()",
-            "beginLine": 62,
-            "endLine": 69,
-            "metrics": {
-              "40010": 4.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 0.0,
-              "40080": 1.0,
-              "40100": 0.0
-            }
-          },
-          {
             "name": "PieceTest.TestInitPosY ( )",
             "signature": "void Tetris.GameEngine.Test.PieceTest.TestInitPosY()",
             "beginLine": 71,
@@ -1424,10 +1410,10 @@
             }
           },
           {
-            "name": "PieceTest.TestRotateRight ( )",
-            "signature": "void Tetris.GameEngine.Test.PieceTest.TestRotateRight()",
-            "beginLine": 27,
-            "endLine": 34,
+            "name": "PieceTest.TestMakeItShadow ( )",
+            "signature": "void Tetris.GameEngine.Test.PieceTest.TestMakeItShadow()",
+            "beginLine": 36,
+            "endLine": 43,
             "metrics": {
               "40010": 4.0,
               "40020": 1.0,
@@ -1452,10 +1438,24 @@
             }
           },
           {
-            "name": "PieceTest.TestMakeItShadow ( )",
-            "signature": "void Tetris.GameEngine.Test.PieceTest.TestMakeItShadow()",
-            "beginLine": 36,
-            "endLine": 43,
+            "name": "PieceTest.TestConstructor_Wrong_Parameter ( )",
+            "signature": "void Tetris.GameEngine.Test.PieceTest.TestConstructor_Wrong_Parameter()",
+            "beginLine": 19,
+            "endLine": 25,
+            "metrics": {
+              "40010": 2.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 0.0,
+              "40080": 0.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "PieceTest.TestRotateRight ( )",
+            "signature": "void Tetris.GameEngine.Test.PieceTest.TestRotateRight()",
+            "beginLine": 27,
+            "endLine": 34,
             "metrics": {
               "40010": 4.0,
               "40020": 1.0,
@@ -1466,7 +1466,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.GameEngine.Test\\Properties\\AssemblyInfo.cs": []
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.GameEngine.Test\\Properties\\AssemblyInfo.cs": []
       }
     },
     {
@@ -1477,7 +1477,7 @@
       },
       "files": [
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs",
           "sourceFileBodyHash": "736cb6e6a17db1d5b6fa661974e9c9cd",
           "metrics": {
             "20020": 134.0,
@@ -1488,7 +1488,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\Interfaces\\IDrawing.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\Interfaces\\IDrawing.cs",
           "sourceFileBodyHash": "ea960ca6562b7b1c4e12b3d1e14b550d",
           "metrics": {
             "20020": 13.0,
@@ -1499,7 +1499,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\Program.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\Program.cs",
           "sourceFileBodyHash": "d5ec14b6704c3132c32b853347df5f49",
           "metrics": {
             "20020": 112.0,
@@ -1510,7 +1510,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\Properties\\AssemblyInfo.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\Properties\\AssemblyInfo.cs",
           "sourceFileBodyHash": "8c1d929de12e0ef19205c9411338bee4",
           "metrics": {
             "20020": 15.0,
@@ -1522,12 +1522,26 @@
         }
       ],
       "functions": {
-        "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\ConsoleDrawing.cs": [
           {
-            "name": "ConsoleDrawing.ShowScore ( Tetris.GameEngine.Game )",
-            "signature": "void TetrisConsoleUI.ConsoleDrawing.ShowScore(Tetris.GameEngine.Game)",
-            "beginLine": 103,
-            "endLine": 108,
+            "name": "ConsoleDrawing.ShowControls ( )",
+            "signature": "void TetrisConsoleUI.ConsoleDrawing.ShowControls()",
+            "beginLine": 63,
+            "endLine": 84,
+            "metrics": {
+              "40010": 1.0,
+              "40020": 1.0,
+              "40040": 0.0,
+              "40070": 1.0,
+              "40080": 1.0,
+              "40100": 0.0
+            }
+          },
+          {
+            "name": "ConsoleDrawing.ShowLines ( Tetris.GameEngine.Game )",
+            "signature": "void TetrisConsoleUI.ConsoleDrawing.ShowLines(Tetris.GameEngine.Game)",
+            "beginLine": 96,
+            "endLine": 101,
             "metrics": {
               "40010": 3.0,
               "40020": 1.0,
@@ -1538,10 +1552,10 @@
             }
           },
           {
-            "name": "ConsoleDrawing.ShowLines ( Tetris.GameEngine.Game )",
-            "signature": "void TetrisConsoleUI.ConsoleDrawing.ShowLines(Tetris.GameEngine.Game)",
-            "beginLine": 96,
-            "endLine": 101,
+            "name": "ConsoleDrawing.ShowScore ( Tetris.GameEngine.Game )",
+            "signature": "void TetrisConsoleUI.ConsoleDrawing.ShowScore(Tetris.GameEngine.Game)",
+            "beginLine": 103,
+            "endLine": 108,
             "metrics": {
               "40010": 3.0,
               "40020": 1.0,
@@ -1563,20 +1577,6 @@
               "40070": 8.0,
               "40080": 1.0,
               "40100": 2.0
-            }
-          },
-          {
-            "name": "ConsoleDrawing.ShowControls ( )",
-            "signature": "void TetrisConsoleUI.ConsoleDrawing.ShowControls()",
-            "beginLine": 63,
-            "endLine": 84,
-            "metrics": {
-              "40010": 1.0,
-              "40020": 1.0,
-              "40040": 0.0,
-              "40070": 1.0,
-              "40080": 1.0,
-              "40100": 0.0
             }
           },
           {
@@ -1622,7 +1622,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\Interfaces\\IDrawing.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\Interfaces\\IDrawing.cs": [
           {
             "name": "Interface IDrawing.DrawScene ( Tetris.GameEngine.Game )",
             "signature": "Interface void Tetris.ConsoleUI.Interfaces.IDrawing.DrawScene(Tetris.GameEngine.Game)",
@@ -1638,7 +1638,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\Program.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\Program.cs": [
           {
             "name": "TetrisConsoleUI.OnTimedEvent ( object, System.Timers.ElapsedEventArgs )",
             "signature": "void TetrisConsoleUI.TetrisConsoleUI.OnTimedEvent(object, System.Timers.ElapsedEventArgs)",
@@ -1682,7 +1682,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.ConsoleUI\\Properties\\AssemblyInfo.cs": []
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.ConsoleUI\\Properties\\AssemblyInfo.cs": []
       }
     },
     {
@@ -1693,7 +1693,7 @@
       },
       "files": [
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.DesktopUI\\Form1.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.DesktopUI\\Form1.cs",
           "sourceFileBodyHash": "4008546fddfd14e0607d6bf9016352b1",
           "metrics": {
             "20020": 19.0,
@@ -1704,7 +1704,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.DesktopUI\\Program.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.DesktopUI\\Program.cs",
           "sourceFileBodyHash": "5cb88558abdafc6ecce359be0055188a",
           "metrics": {
             "20020": 18.0,
@@ -1715,7 +1715,7 @@
           }
         },
         {
-          "path": "D:\\DIRECTORY\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs",
+          "path": "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs",
           "sourceFileBodyHash": "45b89e9b9cdc35839a13eceac35d8e31",
           "metrics": {
             "20020": 15.0,
@@ -1727,7 +1727,7 @@
         }
       ],
       "functions": {
-        "D:\\DIRECTORY\\Tetris\\Tetris.DesktopUI\\Form1.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.DesktopUI\\Form1.cs": [
           {
             "name": "Form1..ctor ( )",
             "signature": "void Tetris.DesktopUI.Form1.Form1()",
@@ -1743,7 +1743,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.DesktopUI\\Program.cs": [
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.DesktopUI\\Program.cs": [
           {
             "name": "Program.Main ( )",
             "signature": "void Tetris.DesktopUI.Program.Main()",
@@ -1759,7 +1759,7 @@
             }
           }
         ],
-        "D:\\DIRECTORY\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs": []
+        "D:\\VPES_GIT\\test_git\\Tetris\\Tetris.DesktopUI\\Properties\\AssemblyInfo.cs": []
       }
     }
   ]
