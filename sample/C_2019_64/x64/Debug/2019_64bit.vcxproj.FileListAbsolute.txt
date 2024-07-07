@@ -1,2 +1,0 @@
-C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.exe
-C:\Users\jhka\Desktop\COVERSE_Automation\sample\C_2019_64\x64\Debug\2019_64bit.pdb
