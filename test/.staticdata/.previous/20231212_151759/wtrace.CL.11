@@ -1,0 +1,16 @@
+exec-+-11-+-10-+-D:\DIRECTORY\test\Project1-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe-+-"C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe" /c /ZI /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc140.pdb" /Gd /TC /errorReport:queue main.c  
+open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Microsoft\VSCommon\14.0\SQM\sqmcpp.log
+open-+-11-+-10-+-D:\DIRECTORY\test\Project1\main.c
+open-+-11-+-10-+-D:\DIRECTORY\test\Project1\x64\Debug\vc140.idb
+open-+-11-+-10-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h
+open-+-11-+-10-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt.h
+open-+-11-+-10-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vcruntime.h
+open-+-11-+-10-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\sal.h
+open-+-11-+-10-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\ConcurrencySal.h
+open-+-11-+-10-+-C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\vadefs.h
+open-+-11-+-10-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_wstdio.h
+open-+-11-+-10-+-C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_stdio_config.h
+open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Temp\{7AC3486C-D2C5-48BF-B367-C4FEC1E59F11}
+open-+-11-+-10-+-D:\DIRECTORY\test\Project1\x64\Debug\vc140.pdb
+open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Temp\{99DA387D-74E4-4210-9B80-F95953F74D91}
+open-+-11-+-10-+-C:\Users\nryun\AppData\Local\Temp\tmpf785233e7d044a6897186fb5ea49383e.tmp

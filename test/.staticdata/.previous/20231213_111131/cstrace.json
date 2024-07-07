@@ -1,0 +1,96 @@
+{
+    "10": {
+        "execve": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe",
+            [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\CL.exe",
+                "/c",
+                "/ZI",
+                "/nologo",
+                "/W3",
+                "/WX-",
+                "/sdl",
+                "/Od",
+                "/D",
+                "_MBCS",
+                "/Gm",
+                "/EHsc",
+                "/RTC1",
+                "/MDd",
+                "/GS",
+                "/fp:precise",
+                "/Zc:wchar_t",
+                "/Zc:forScope",
+                "/Zc:inline",
+                "/Fo",
+                "D:\\DIRECTORY\\test\\Project1\\x64\\Debug",
+                "/Fd",
+                "D:\\DIRECTORY\\test\\Project1\\x64\\Debug\\vc140.pdb",
+                "/Gd",
+                "/TC",
+                "/errorReport:queue",
+                "D:\\DIRECTORY\\test\\Project1\\main.c"
+            ],
+            "D:\\DIRECTORY\\test\\Project1"
+        ],
+        "open": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\ConcurrencySal.h",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\sal.h",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\vadefs.h",
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\include\\vcruntime.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\corecrt.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\corecrt_stdio_config.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\corecrt_wstdio.h",
+            "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.10240.0\\ucrt\\stdio.h",
+            "C:\\Users\\nryun\\AppData\\Local\\Microsoft\\VSCommon\\14.0\\SQM\\sqmcpp.log",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\tmp3ad929776ed84591a5cd9cfedb3bc748.tmp",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\{C02D3E6C-8561-4E3C-8F84-1EA5A5BCA085}",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\{E6421BD4-95EF-482C-9F39-EFAB25640443}",
+            "D:\\DIRECTORY\\test\\Project1\\main.c",
+            "D:\\DIRECTORY\\test\\Project1\\x64\\Debug\\vc140.idb",
+            "D:\\DIRECTORY\\test\\Project1\\x64\\Debug\\vc140.pdb"
+        ]
+    },
+    "14": {
+        "execve": [
+            "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe",
+            [
+                "C:\\Program Files (x86)\\Microsoft Visual Studio 14.0\\VC\\bin\\x86_amd64\\link.exe",
+                "/ERRORREPORT:QUEUE",
+                "/OUT:\"D:\\DIRECTORY\\test\\x64\\Debug\\test.exe\"",
+                "/INCREMENTAL",
+                "/NOLOGO",
+                "kernel32.lib",
+                "user32.lib",
+                "gdi32.lib",
+                "winspool.lib",
+                "comdlg32.lib",
+                "advapi32.lib",
+                "shell32.lib",
+                "ole32.lib",
+                "oleaut32.lib",
+                "uuid.lib",
+                "odbc32.lib",
+                "odbccp32.lib",
+                "/MANIFEST",
+                "/MANIFESTUAC:\"level='asInvoker' uiAccess='false'\"",
+                "/manifest:embed",
+                "/D",
+                "EBUG:FASTLINK",
+                "/PDB:\"D:\\DIRECTORY\\test\\x64\\Debug\\test.pdb\"",
+                "/TLBID:1",
+                "/D",
+                "YNAMICBASE",
+                "/NXCOMPAT",
+                "/IMPLIB:\"D:\\DIRECTORY\\test\\x64\\Debug\\test.lib\"",
+                "/MACHINE:X64",
+                "D:\\DIRECTORY\\test\\Project1\\x64\\Debug\\main.obj"
+            ],
+            "D:\\DIRECTORY\\test\\Project1"
+        ],
+        "open": [
+            "C:\\Users\\nryun\\AppData\\Local\\Microsoft\\VSCommon\\14.0\\SQM\\sqmcpp.log",
+            "C:\\Users\\nryun\\AppData\\Local\\Temp\\tmp42981f0829dc49c19d172fa4861d1f5c.tmp"
+        ]
+    }
+}
